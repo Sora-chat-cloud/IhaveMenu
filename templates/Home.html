@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>มีอะไรในครัววันนี้? - RecipeFinder</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background: linear-gradient(135deg, #FFF5F0 0%, #FDFBF9 100%);
+            min-height: 100vh;
+        }
+
+        .orange-gradient {
+            background: linear-gradient(135deg, #F28749 0%, #E67635 100%);
+        }
+
+        .animate-fade {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .recipe-shadow {
+            box-shadow: 0 20px 50px -12px rgba(242, 135, 73, 0.1);
+        }
+
+        @keyframes dropdown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-dropdown {
+            animation: dropdown 0.2s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState } = React;
+
+        // --- Component: Header ---
+        const Header = ({ onEditProfile, onGoHome, userImage, username }) => {
+            const [showMenu, setShowMenu] = useState(false);
+            const initial = username ? username.charAt(0).toUpperCase() : "?";
+
+            return (
+                <nav className="sticky top-0 z-50 bg-white border-b border-gray-50 px-6 py-4 shadow-[0_2px_15px_rgba(0,0,0,0.02)]">
+                    <div className="max-w-7xl mx-auto flex items-center justify-between">
+                        <div className="flex items-center gap-4">
+                            <div onClick={onGoHome} className="flex items-center gap-2 cursor-pointer">
+                                <div className="w-9 h-9 orange-gradient rounded-xl flex items-center justify-center shadow-orange-200 shadow-lg">
+                                    <span className="text-white text-lg">🍳</span>
+                                </div>
+                                <span className="text-xl font-bold text-gray-800 tracking-tight hidden sm:block">
+                                    IHave<span className="text-[#F28749]">Menu</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            );
+        };
+
+
+        // --- Main App Component ---
+        const App = () => {
+            const [view, setView] = useState('home');
+            const [profileImage, setProfileImage] = useState(null);
+            const [username, setUsername] = useState('Chef User');
+            const [selectedIngredients, setSelectedIngredients] = useState([]);
+            const [inputValue, setInputValue] = useState("");
+
+            const popularIngredients = [
+                { name: 'เนื้อไก่', icon: '🍗' }, { name: 'ไข่ไก่', icon: '🥚' },
+                { name: 'ผักกาด', icon: '🥬' }, { name: 'หมูสับ', icon: '🥓' },
+                { name: 'พริก', icon: '🌶️' }, { name: 'แครอท', icon: '🥕' }
+            ];
+
+            const toggleIngredient = (name) => {
+                setSelectedIngredients(prev =>
+                    prev.includes(name) ? prev.filter(i => i !== name) : [...prev, name]
+                );
+            };
+
+            const handleAdd = () => {
+                if (inputValue.trim()) {
+                    const newItems = inputValue.split(',').map(item => item.trim()).filter(item => item !== "" && !selectedIngredients.includes(item));
+                    setSelectedIngredients([...selectedIngredients, ...newItems]);
+                    setInputValue("");
+                }
+            };
+
+            // ฟังก์ชันส่งข้อมูลและบันทึกลงเครื่องเพื่อใช้ในหน้าถัดไป
+            const handleNext = async () => {
+                if (selectedIngredients.length === 0) return;
+
+                // --- ส่วนที่เพิ่ม: บันทึกข้อมูลลง localStorage ---
+                localStorage.setItem('selectedIngredients', JSON.stringify(selectedIngredients));
+
+                try {
+                    // ส่งข้อมูลไป Flask Backend (เก็บไว้ตามเดิม)
+                    const response = await fetch('/api/ingredients', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ ingredients: selectedIngredients })
+                    });
+
+                    if (response.ok) {
+                        // ถ้า Backend ตอบรับโอเค ให้ย้ายหน้า
+                        window.location.href = '/settings';
+                    } else {
+                        // กรณี Backend มีปัญหา แต่เราอยากให้ไปต่อได้ (Optional)
+                        console.warn("Backend saved failed, but proceeding with local data.");
+                        window.location.href = '/settings';
+                    }
+                } catch (error) {
+                    console.error("Error saving ingredients:", error);
+                    // ถึงแม้ Network จะพัง แต่ข้อมูลใน localStorage ถูกบันทึกแล้ว 
+                    // สามารถเลือกให้ไปหน้าถัดไปได้เลยถ้าต้องการ
+                    window.location.href = '/settings';
+                }
+            };
+
+            return (
+                <div className="min-h-screen flex flex-col">
+                    <Header
+                        onEditProfile={() => setView('profile')}
+                        onGoHome={() => setView('home')}
+                        userImage={profileImage}
+                        username={username}
+                    />
+
+                    {view === 'home' ? (
+                        <main className="flex-1 flex flex-col items-center p-8 pb-40 animate-fade">
+                            <div className="text-center mt-12 mb-10">
+                                <h1 className="text-4xl font-extrabold text-[#333]">มีอะไรในครัว<span className="text-[#F28749]">วันนี้?</span></h1>
+                                <p className="text-gray-400 mt-3 text-lg">ยินดีต้อนรับคุณ <span className="text-orange-500 font-bold">{username}</span> เพิ่มวัตถุดิบที่มี แล้วเราจะและนำเมนูให้</p>
+                            </div>
+
+                            <div className="w-full max-w-2xl relative flex items-center">
+                                <input
+                                    type="text"
+                                    value={inputValue}
+                                    onChange={(e) => setInputValue(e.target.value)}
+                                    onKeyPress={(e) => e.key === 'Enter' && handleAdd()}
+                                    placeholder="เช่น เนื้อไก่, ไข่ไก่..."
+                                    className="w-full p-5 pl-14 rounded-3xl border border-gray-100 bg-white shadow-sm focus:ring-2 focus:ring-[#F28749] outline-none"
+                                />
+                                <span className="absolute left-5 text-gray-400">🔍</span>
+                                <button onClick={handleAdd} className="absolute right-3 orange-gradient text-white px-6 py-2.5 rounded-2xl font-bold shadow-md hover:scale-105 transition-transform">+ เพิ่ม</button>
+                            </div>
+
+                            <div className="mt-6 flex flex-wrap justify-center gap-2 max-w-2xl">
+                                {selectedIngredients.map(item => (
+                                    <span key={item} className="bg-orange-50 text-orange-600 border border-orange-100 px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2 animate-fade">
+                                        {item}
+                                        <button onClick={() => toggleIngredient(item)} className="hover:text-red-500 font-bold">×</button>
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="mt-12 w-full max-w-3xl">
+                                <h3 className="text-center font-bold text-gray-700 mb-8 text-xl">วัตถุดิบยอดนิยม</h3>
+                                <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+                                    {popularIngredients.map((item) => (
+                                        <div
+                                            key={item.name}
+                                            onClick={() => toggleIngredient(item.name)}
+                                            className={`p-10 rounded-[40px] border transition-all cursor-pointer flex flex-col items-center group ${selectedIngredients.includes(item.name) ? 'bg-orange-50 border-orange-400 ring-4 ring-orange-50' : 'bg-white border-gray-50 hover:shadow-xl hover:-translate-y-1'}`}
+                                        >
+                                            <span className="text-5xl mb-4 group-hover:scale-110 transition-transform">{item.icon}</span>
+                                            <span className="font-bold text-gray-600">{item.name}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="fixed bottom-0 left-0 right-0 p-8 bg-white/60 backdrop-blur-xl border-t border-gray-50 flex flex-col items-center z-50">
+                                <button
+                                    onClick={handleNext}
+                                    disabled={selectedIngredients.length === 0}
+                                    className={`w-full max-w-md py-5 rounded-[25px] font-bold text-xl transition-all duration-500 shadow-xl ${selectedIngredients.length > 0 ? 'orange-gradient text-white shadow-orange-200 scale-100' : 'bg-gray-200 text-gray-400 cursor-not-allowed scale-95'}`}
+                                >
+                                    {selectedIngredients.length > 0 ? `${selectedIngredients.length} วัตถุดิบที่เลือกไว้ →` : 'เลือกวัตถุดิบอย่างน้อย 1 อย่าง'}
+                                </button>
+                            </div>
+                        </main>
+                    ) : (
+                        <EditProfilePage
+                            currentImage={profileImage}
+                            currentUsername={username}
+                            onSaveProfile={(newImg, newName) => {
+                                setProfileImage(newImg);
+                                setUsername(newName);
+                            }}
+                            onCancel={() => setView('home')}
+                        />
+                    )}
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>
