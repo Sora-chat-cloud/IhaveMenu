@@ -3,7 +3,10 @@ from google.genai import types
 from pydantic import BaseModel, Field
 from typing import List
 import json
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class Nutrition(BaseModel):
     calories: int = Field(description="Number of calories.")
@@ -11,7 +14,7 @@ class Nutrition(BaseModel):
 
 class Recipe(BaseModel):
     recipe_name: str = Field(description="Name of the recipe.")
-    instruction: str
+    instruction: str = Field(description="Cooking methods that take about the specified time.")
     nutrition: List[Nutrition]
 
 role = """
@@ -35,10 +38,10 @@ config = types.GenerateContentConfig(
 
 prompt = f"Please find a food menu from {menu_base} with ingredients similar to what the user provides {user} . If it can't be found, create a new menu based on what the user gives, you have 40 minutes."
 
-client = genai.Client(api_key="")
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 response = client.models.generate_content(
-    model = "gemini-3-flash-preview",
+    model = "gemini-3-flash-preview", # gemini-3-flash-previewgemini-2.5-flash
     contents = prompt,
     config = config,
 )
