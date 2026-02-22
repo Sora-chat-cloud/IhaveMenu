@@ -1,0 +1,57 @@
+from google import genai
+from google.genai import types
+from pydantic import BaseModel, Field
+from typing import List
+import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Nutrition(BaseModel):
+    calories: int = Field(description="Number of calories.")
+    protein: int = Field(description="Number of protein.")
+
+class Recipe(BaseModel):
+    recipe_name: str = Field(description="Name of the recipe.")
+    instruction: str = Field(description="Cooking methods that take about the specified time.")
+    nutrition: List[Nutrition]
+
+role = """
+    You are the head chef, an expert in all types of dishes, whether it's boiling, stir-frying, curries, frying, or Thai, Japanese, and others.
+    You can prepare meals from the available ingredients to match the specified time as closely as possible.
+    You will respond in Thai.
+"""
+
+
+def gemie_menu_recommendation(ingredients, food_type, time_limit):
+
+    config = types.GenerateContentConfig(
+        system_instruction = role,
+        temperature = 1, # ความคิดสร้างสรรค์น้อย=เร็ว 0 to 2
+        response_mime_type = "application/json",
+        response_json_schema = Recipe.model_json_schema(),
+    )
+
+    with open('MenuBase.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    
+    menu_base = data['Food type'][food_type]
+    user_context = f"{{'ingredients': [{ingredients}]}}"
+
+    prompt = f"""Please find a food menu from {menu_base} with ingredients similar to what the
+      user provides {user_context} . If it can't be found,
+      create a new menu based on what the user gives, you have {time_limit} minutes."""
+
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+    response = client.models.generate_content(
+        model = "gemini-3-flash-preview", # gemini-3-flash-previewgemini-2.5-flash
+        contents = prompt,
+        config = config,
+    )
+
+    result = Recipe.model_validate_json(response.text)
+
+    return result
+
