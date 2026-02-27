@@ -7,46 +7,67 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Kanit', sans-serif; }
+        body { font-family: 'Kanit', sans-serif; overflow-x: hidden; }
+        
         .bg-food {
-            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+            /* ปรับรูปพื้นหลังให้ชัดเจน */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
                               url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
         }
+
+        .text-glow {
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        @keyframes revealUp {
+            0% { opacity: 0; transform: translateY(50px); filter: blur(15px); }
+            100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+        }
+
+        .animate-reveal { opacity: 0; animation: revealUp 1.2s cubic-bezier(0.19, 1, 0.22, 1) forwards; }
+        .delay-1 { animation-delay: 0.3s; }
+        .delay-2 { animation-delay: 0.6s; }
+        .delay-3 { animation-delay: 0.9s; }
     </style>
 </head>
-<body class="bg-gray-50">
+<body class="bg-white">
 
-    <div class="bg-food min-h-screen flex items-center justify-center text-white px-4">
-        <div class="max-w-3xl text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
-                IhaveMenu <span class="text-yellow-400"></span>
-            </h1>
-            <p class="text-xl md:text-2xl mb-10 text-gray-200 leading-relaxed">
-                เปลี่ยนวัตถุดิบในตู้เย็นให้เป็นเมนูสุดพิเศษ <br class="hidden md:block">
-                ด้วยระบบช่วยคิดเมนูอาหารอัจฉริยะจากวัตถุดิบที่คุณมี
-            </p>
+    <div class="bg-food min-h-screen flex items-center justify-center px-4">
+        <div class="max-w-5xl text-center">
             
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <h1 class="animate-reveal text-7xl md:text-9xl font-extrabold mb-8 tracking-tight text-yellow-500 drop-shadow-2xl text-glow">
+                IhaveMenu <span class="inline-block animate-bounce">🍳</span>
+            </h1>
+            
+            <div class="animate-reveal delay-1 inline-block px-10 py-8 rounded-3xl backdrop-blur-sm bg-black/30 mb-12 border border-white/10 shadow-2xl">
+                <p class="text-2xl md:text-4xl text-white leading-relaxed font-normal">
+                    เปลี่ยนวัตถุดิบในตู้เย็นให้เป็นเมนูสุดพิเศษ <br class="hidden md:block">
+                    ด้วยระบบช่วยคิดเมนูอาหารอัจฉริยะ <span class="font-semibold text-yellow-400 underline decoration-yellow-400/50">จากวัตถุดิบที่คุณมี</span>
+                </p>
+            </div>
+            
+            <div class="animate-reveal delay-2 flex flex-col md:flex-row gap-4 justify-center">
                 <a href="{{ url_for('user_input_page') }}" 
-                   class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-4 px-10 rounded-full text-xl transition duration-300 transform hover:scale-105 shadow-lg">
+                   class="bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-orange-500 hover:to-yellow-400 text-white font-bold py-6 px-20 rounded-full text-3xl transition-all duration-300 transform hover:scale-105 shadow-[0_15px_50px_rgba(0,0,0,0.5)] active:scale-95">
                     มาเริ่มกันเลย 👨‍🍳
                 </a>
             </div>
 
-            <div class="grid grid-cols-3 gap-4 mt-16 text-sm opacity-90">
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl mb-2">🥦</span>
-                    <p>เลือกวัตถุดิบได้เอง</p>
+            <div class="animate-reveal delay-3 grid grid-cols-3 gap-8 mt-24 text-base md:text-xl font-semibold text-white">
+                <div class="flex flex-col items-center group bg-black/30 p-6 rounded-2xl backdrop-blur-sm border border-white/5">
+                    <div class="text-6xl mb-4 transition-all duration-500 group-hover:scale-125 drop-shadow-lg">🥦</div>
+                    <p class="group-hover:text-yellow-400 transition-colors text-glow">เลือกวัตถุดิบได้เอง</p>
                 </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl mb-2">💡</span>
-                    <p>แนะนำเมนูแม่นยำ</p>
+                <div class="flex flex-col items-center group bg-black/30 p-6 rounded-2xl backdrop-blur-sm border border-white/5">
+                    <div class="text-6xl mb-4 transition-all duration-500 group-hover:scale-125 drop-shadow-lg">💡</div>
+                    <p class="group-hover:text-yellow-400 transition-colors text-glow">แนะนำแม่นยำ</p>
                 </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-2xl mb-2">✨</span>
-                    <p>ประหยัดเวลาคิด</p>
+                <div class="flex flex-col items-center group bg-black/30 p-6 rounded-2xl backdrop-blur-sm border border-white/5">
+                    <div class="text-6xl mb-4 transition-all duration-500 group-hover:scale-125 drop-shadow-lg">✨</div>
+                    <p class="group-hover:text-yellow-400 transition-colors text-glow">ประหยัดเวลา</p>
                 </div>
             </div>
         </div>
