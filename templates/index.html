@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wellcome!!!</title>
+    <title>IhaveMenu - ระบบช่วยคิดเมนูอาหารอัจฉริยะ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Kanit', sans-serif; }
+        .bg-food {
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                              url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>IhaveMenu888</h1>
+<body class="bg-gray-50">
 
-    <a href="{{ url_for('user_input_page') }}">
-        <button>มาเริ่มกันเลย</button>
-    </a>
+    <div class="bg-food min-h-screen flex items-center justify-center text-white px-4">
+        <div class="max-w-3xl text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                IhaveMenu <span class="text-yellow-400"></span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-200 leading-relaxed">
+                เปลี่ยนวัตถุดิบในตู้เย็นให้เป็นเมนูสุดพิเศษ <br class="hidden md:block">
+                ด้วยระบบช่วยคิดเมนูอาหารอัจฉริยะจากวัตถุดิบที่คุณมี
+            </p>
+            
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="{{ url_for('user_input_page') }}" 
+                   class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-4 px-10 rounded-full text-xl transition duration-300 transform hover:scale-105 shadow-lg">
+                    มาเริ่มกันเลย 👨‍🍳
+                </a>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mt-16 text-sm opacity-90">
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl mb-2">🥦</span>
+                    <p>เลือกวัตถุดิบได้เอง</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl mb-2">💡</span>
+                    <p>แนะนำเมนูแม่นยำ</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-2xl mb-2">✨</span>
+                    <p>ประหยัดเวลาคิด</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
