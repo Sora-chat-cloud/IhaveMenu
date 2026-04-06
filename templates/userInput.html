@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,161 +8,206 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Kanit', sans-serif; }
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+
         .bg-food {
-            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                              url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1920&q=80');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
+
+        /* สไตล์สำหรับ Loading Overlay */
+        #loadingOverlay {
+            display: none;
+            /* ปิดไว้ก่อน */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(8px);
+            z-index: 9999;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        /* แอนิเมชันหมุนๆ */
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #fbbf24;
+            /* สีเหลืองทอง */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .loading-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-align: center;
+        }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <div class="bg-food min-h-screen flex items-center justify-center px-4 py-8">
         <div class="max-w-2xl w-full">
-            <a href="/" class="inline-flex items-center gap-2 text-white hover:text-yellow-400 transition duration-300 mb-6">
+            <a href="/"
+                class="inline-flex items-center gap-2 text-white hover:text-yellow-400 transition duration-300 mb-6">
                 <span class="text-2xl">←</span>
                 <span class="text-lg font-semibold">กลับหน้าแรก</span>
             </a>
-            
+
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center mb-8 tracking-tight">
                 กรอกวัตถุดิบที่มี <span class="text-yellow-400">🍳</span>
             </h1>
-            
+
             <div class="bg-white/95 backdrop-blur rounded-2xl shadow-2xl p-6 md:p-8">
-                <form id="menuForm" class="space-y-6">
+                <form action="/api/get-menu" method="POST" id="menuForm" class="space-y-6">
+
                     <div>
                         <label class="block text-gray-800 font-semibold mb-3 text-lg">วัตถุดิบที่มี:</label>
                         <div class="flex flex-col sm:flex-row gap-2 mb-3">
                             <input type="text" id="ingredientName" placeholder="ชื่อวัตถุดิบ เช่น กุ้ง"
-                                   class="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
+                                class="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
                             <div class="flex gap-2">
                                 <input type="number" id="ingredientAmount" placeholder="จำนวน" min="1"
-                                       class="w-24 px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
+                                    class="w-24 px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
                                 <select id="ingredientUnit"
-                                        class="w-28 px-3 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
+                                    class="w-28 px-3 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
                                     <option value="กรัม">กรัม</option>
                                     <option value="ฟอง">ฟอง</option>
-                                    <option value="ช้อนโต๊ะ">ช้อนโต๊ะ</option>
-                                    <option value="ถ้วย">ถ้วย</option>
-                                    <option value="กิโลกรัม">กิโลกรัม</option>
+                                    <option value="หัว">หัว</option>
+                                    <option value="ต้น">ต้น</option>
+                                    <option value="ลูก">ลูก</option>
                                 </select>
                                 <button type="button" id="addIngredient"
-                                        class="px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-full transition duration-300 transform hover:scale-105 shadow-lg whitespace-nowrap">
+                                    class="px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-full transition duration-300 transform hover:scale-105 shadow-lg whitespace-nowrap">
                                     เพิ่ม
                                 </button>
                             </div>
                         </div>
-                        <div id="ingredientList" class="space-y-2"></div>
-                        <input type="hidden" id="ingredients" required>
+
+                        <div id="ingredientList" class="flex flex-wrap gap-2 mb-3"></div>
+
+                        <input type="hidden" name="ingredients" id="ingredientsFinal" required>
                     </div>
-                    
+
                     <div>
                         <label class="block text-gray-800 font-semibold mb-3 text-lg">ประเภทอาหาร:</label>
-                        <select id="foodType" required
-                                class="w-full px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
-                            <option value="boiled">ต้ม</option>
-                            <option value="stir-fried">ผัด</option>
-                            <option value="curries">แกง</option>
-                            <option value="fried">ทอด</option>
+                        <select id="foodType" name="food_type" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
+                            <option value="ต้ม">ต้ม</option>
+                            <option value="ผัด">ผัด</option>
+                            <option value="แกง">แกง</option>
+                            <option value="ทอด">ทอด</option>
                         </select>
                     </div>
-                    
+
                     <div>
                         <label class="block text-gray-800 font-semibold mb-3 text-lg">เวลาที่มี (นาที):</label>
-                        <input type="number" id="timeLimit" placeholder="เช่น 30" min="1" required
-                               class="w-full px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
+                        <input type="number" id="timeLimit" name="time" min="1" value=45
+                            class="w-full px-4 py-3 border border-gray-300 rounded-full focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition">
                     </div>
-                    
-                    <button type="submit" 
-                            class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-4 rounded-full text-xl transition duration-300 transform hover:scale-105 shadow-lg">
-                        แนะนำเมนู 👨🍳
+
+                    <button type="submit"
+                        class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-4 rounded-full text-xl transition duration-300 transform hover:scale-105 shadow-lg">
+                        แนะนำเมนู 👨‍🍳
                     </button>
                 </form>
-                
-                <div id="loading" class="hidden text-center mt-6 text-white text-xl font-semibold">
-                    กำลังคิดเมนู... ⏳
-                </div>
-                
-                <div id="result" class="hidden mt-8 p-6 bg-white/90 backdrop-blur rounded-xl shadow-lg">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">เมนูแนะนำ: <span id="recipeName" class="text-yellow-600"></span></h2>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-700 mb-2">วิธีทำ:</h3>
-                    <p id="instruction" class="text-gray-600 mb-4 leading-relaxed"></p>
-                    <h3 class="text-lg md:text-xl font-semibold text-gray-700 mb-2">คุณค่าทางโภชนาการ:</h3>
-                    <p id="nutrition" class="text-gray-600 font-semibold"></p>
-                </div>
             </div>
         </div>
     </div>
-
+    <div id="loadingOverlay">
+        <div class="loader"></div>
+        <div class="loading-text">
+            <span class="text-yellow-400">เชฟ AI</span> กำลังปรุงเมนูสุดพิเศษให้คุณ... <br>
+            <span class="text-sm font-light text-gray-400">กรุณารอสักครู่ (Gemini กำลังคิดอยู่จ้า)</span>
+        </div>
+    </div>
     <script>
-        let ingredientsList = [];
-        
+        const ingredientsArray = [];
+        const ingredientListDiv = document.getElementById('ingredientList');
+        const ingredientsFinalInput = document.getElementById('ingredientsFinal');
+
+        // ฟังก์ชันเพิ่มวัตถุดิบเข้า List
         document.getElementById('addIngredient').addEventListener('click', () => {
             const name = document.getElementById('ingredientName').value.trim();
             const amount = document.getElementById('ingredientAmount').value;
             const unit = document.getElementById('ingredientUnit').value;
-            
+
             if (name && amount) {
-                ingredientsList.push({ name, amount, unit });
-                updateIngredientDisplay();
+                const fullText = `${name} ${amount} ${unit}`;
+                ingredientsArray.push(fullText);
+
+                // สร้าง Tag แสดงผล
+                const tag = document.createElement('div');
+                tag.className = "bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full flex items-center gap-2 border border-yellow-200 animate-fade-in";
+                tag.innerHTML = `
+                    <span>${fullText}</span>
+                    <button type="button" class="text-red-500 hover:text-red-700 font-bold ml-1" onclick="removeIngredient('${fullText}', this)">×</button>
+                `;
+
+                ingredientListDiv.appendChild(tag);
+                updateHiddenInput();
+
+                // ล้างค่า
                 document.getElementById('ingredientName').value = '';
                 document.getElementById('ingredientAmount').value = '';
+                document.getElementById('ingredientName').focus();
+            } else {
+                alert("กรุณากรอกชื่อและจำนวนวัตถุดิบให้ครบถ้วน");
             }
         });
-        
-        function updateIngredientDisplay() {
-            const listDiv = document.getElementById('ingredientList');
-            listDiv.innerHTML = ingredientsList.map((item, index) => `
-                <div class="flex justify-between items-center bg-gray-50 px-4 py-3 rounded-full border border-gray-200 shadow-sm hover:shadow-md transition">
-                    <span class="text-gray-700">${item.name} - ${item.amount} ${item.unit}</span>
-                    <button type="button" onclick="removeIngredient(${index})" class="text-red-500 hover:text-red-700 transition font-bold">✕</button>
-                </div>
-            `).join('');
-            
-            document.getElementById('ingredients').value = ingredientsList.map(i => i.name).join(', ');
-        }
-        
-        function removeIngredient(index) {
-            ingredientsList.splice(index, 1);
-            updateIngredientDisplay();
-        }
-        
-        document.getElementById('menuForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const ingredients = document.getElementById('ingredients').value;
-            const foodType = document.getElementById('foodType').value;
-            const timeLimit = document.getElementById('timeLimit').value;
-            
-            document.getElementById('loading').classList.remove('hidden');
-            document.getElementById('result').classList.add('hidden');
-            
-            try {
-                const response = await fetch('/recommend', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ ingredients, food_type: foodType, time_limit: timeLimit })
-                });
-                
-                const data = await response.json();
-                
-                if (response.ok) {
-                    document.getElementById('recipeName').textContent = data.recipe_name;
-                    document.getElementById('instruction').textContent = data.instruction;
-                    document.getElementById('nutrition').textContent = 
-                        `แคลอรี่: ${data.nutrition[0].calories} kcal, โปรตีน: ${data.nutrition[0].protein} g`;
-                    document.getElementById('result').classList.remove('hidden');
-                } else {
-                    alert('เกิดข้อผิดพลาด: ' + data.msg);
-                }
-            } catch (error) {
-                alert('ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์');
+
+        // ฟังก์ชันลบวัตถุดิบ
+        function removeIngredient(text, element) {
+            const index = ingredientsArray.indexOf(text);
+            if (index > -1) {
+                ingredientsArray.splice(index, 1);
             }
-            
-            document.getElementById('loading').classList.add('hidden');
-        });
+            element.parentElement.remove();
+            updateHiddenInput();
+        }
+
+        // อัปเดตค่าใน Hidden Input เพื่อส่งไปกับฟอร์ม
+        function updateHiddenInput() {
+            ingredientsFinalInput.value = ingredientsArray.join(', ');
+        }
+
+        // ตรวจสอบก่อนส่งฟอร์ม
+        document.getElementById('menuForm').onsubmit = function () {
+            if (ingredientsArray.length === 0) {
+                alert("กรุณาเพิ่มวัตถุดิบอย่างน้อย 1 อย่าง");
+                return false;
+            }
+
+            // แสดง Loading Overlay เมื่อทุกอย่างถูกต้อง
+            document.getElementById('loadingOverlay').style.display = 'flex';
+
+            return true; // ส่งฟอร์มไปยัง Flask ต่อ
+        };
     </script>
 </body>
+
 </html>

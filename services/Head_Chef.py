@@ -1,57 +1,70 @@
+import os
+import json
 from google import genai
 from google.genai import types
 from pydantic import BaseModel, Field
 from typing import List
-import json
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
+
 class Nutrition(BaseModel):
-    calories: int = Field(description="Number of calories.")
-    protein: int = Field(description="Number of protein.")
+    calories: int = Field(description="จำนวนแคลอรี่ (หน่วย kcal)")
+    protein: int = Field(description="จำนวนโปรตีน (หน่วย กรัม)")
 
 class Recipe(BaseModel):
-    recipe_name: str = Field(description="Name of the recipe.")
-    instruction: str = Field(description="Cooking methods that take about the specified time.")
+    recipe_name: str = Field(description="ชื่อเมนูอาหาร (ต้องตรงกับชื่อที่ส่งให้ใน pool)")
+    instruction: str = Field(description="ขั้นตอนการทำโดยละเอียดในภาษาไทย")
     nutrition: List[Nutrition]
 
-role = """
-    You are the head chef, an expert in all types of dishes, whether it's boiling, stir-frying, curries, frying, or Thai, Japanese, and others.
-    You can prepare meals from the available ingredients to match the specified time as closely as possible.
-    You will respond in Thai.
-"""
+class RecipeList(BaseModel):
+    recommendations: List[Recipe] = Field(description="รายการเมนูแนะนำ 3 เมนู")
 
 
-def gemie_menu_recommendation(ingredients, food_type, time_limit):
+def gemie_menu_recommendation(user_ingredients, menu_pool, time_limit):
+    
+    # กำหนดบทบาทของ AI
+    role = """
+    คุณคือหัวหน้าเชฟผู้เชี่ยวชาญการทำอาหารทุกประเภท 
+    หน้าที่ของคุณคือเลือกเมนูที่เหมาะสมที่สุด 3 เมนูจากรายการเมนู (Menu Pool) ที่กำหนดให้ 
+    โดยพิจารณาจากวัตถุดิบที่ผู้ใช้มี (User Ingredients) และข้อจำกัดด้านเวลา 
+    หากวัตถุดิบที่ผู้ใช้มีไม่ครบตามเมนูในระบบ ให้คุณแนะนำวิธีการดัดแปลงหรือใช้วัตถุดิบทดแทนเพื่อให้ทำเมนูนั้นได้จริง
+    **สำคัญ: คุณต้องตอบเป็นภาษาไทยเท่านั้น**
+    """
 
+    # ตั้งค่า Config สำหรับการตอบกลับเป็น JSON List
     config = types.GenerateContentConfig(
-        system_instruction = role,
-        temperature = 1, # ความคิดสร้างสรรค์น้อย=เร็ว 0 to 2
-        response_mime_type = "application/json",
-        response_json_schema = Recipe.model_json_schema(),
+        system_instruction=role,
+        temperature=0.7, 
+        response_mime_type="application/json",
+        response_json_schema=RecipeList.model_json_schema(),
     )
 
-    with open('MenuBase.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
-    
-    menu_base = data['Food type'][food_type]
-    user_context = f"{{'ingredients': [{ingredients}]}}"
+    # สร้าง Prompt ที่ส่งเฉพาะข้อมูลที่จำเป็น
+    prompt = f"""
+    นี่คือรายการเมนูในระบบที่คุณสามารถเลือกได้:
+    {json.dumps(menu_pool, ensure_ascii=False)}
 
-    prompt = f"""Please find a food menu from {menu_base} with ingredients similar to what the
-      user provides {user_context} . If it can't be found,
-      create a new menu based on what the user gives, you have {time_limit} minutes."""
+    วัตถุดิบที่ผู้ใช้มี: {user_ingredients}
+    เวลาที่มี: {time_limit} นาที
+
+    คำสั่ง: 
+    1. เลือกเมนูที่ดีที่สุด 3 เมนูจากรายการด้านบนที่เข้ากับวัตถุดิบของผู้ใช้
+    2. เขียนขั้นตอนการปรุง (instruction) ให้ละเอียดและเข้าใจง่าย
+    3. คำนวณค่าสารอาหาร (nutrition) ให้เหมาะสมกับวัตถุดิบที่ใช้
+    """
 
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-
     response = client.models.generate_content(
-        model = "gemini-3-flash-preview", # gemini-3-flash-previewgemini-2.5-flash
-        contents = prompt,
-        config = config,
+        model='gemini-3-flash-preview',
+        contents=prompt,
+        config=config,
     )
 
-    result = Recipe.model_validate_json(response.text)
+    # ตรวจสอบและแปลงผลลัพธ์
+    result = RecipeList.model_validate_json(response.text)
+    
+    return result.model_dump()['recommendations']
 
-    return result
-
+    

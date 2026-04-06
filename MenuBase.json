@@ -1,129 +1,3020 @@
-{
-    "Food type": {
-        "boiled": [
-            {
-                "name": "ต้มยำกุ้ง",
-                "ingredients": [
-                    "กุ้ง",
-                    "เห็ดฟาง",
-                    "ตะไคร้",
-                    "ใบมะกรูด",
-                    "มะนาว",
-                    "พริกเผา"
-                ]
-            },
-            {
-                "name": "ต้มจืดเต้าหู้หมูสับ",
-                "ingredients": [
-                    "เต้าหู้ไข่",
-                    "หมูสับ",
-                    "ผักกาดขาว",
-                    "แครอท",
-                    "ต้นหอม"
-                ]
-            },
-            {
-                "name": "ต้มข่าไก่",
-                "ingredients": [
-                    "เนื้อไก่",
-                    "กะทิ",
-                    "ข่า",
-                    "ตะไคร้",
-                    "เห็ดนางฟ้า"
-                ]
-            }
-        ],
-        "stir-fried": [
-            {
-                "name": "ผัดไทย",
-                "ingredients": [
-                    "เส้นเล็ก",
-                    "กุ้งสด",
-                    "ถั่วงอก",
-                    "ใบกุยช่าย",
-                    "ถั่วลิสงคั่ว"
-                ]
-            },
-            {
-                "name": "กะเพราหมูสับ",
-                "ingredients": [
-                    "หมูสับ",
-                    "ใบกะเพรา",
-                    "พริก",
-                    "กระเทียม",
-                    "ซอสหอยนางรม"
-                ]
-            },
-            {
-                "name": "ผัดผักบุ้งไฟแดง",
-                "ingredients": [
-                    "ผักบุ้งจีน",
-                    "พริกขี้หนู",
-                    "กระเทียม",
-                    "เต้าเจี้ยว"
-                ]
-            }
-        ],
-        "curries": [
-            {
-                "name": "แกงเขียวหวานไก่",
-                "ingredients": [
-                    "เนื้อไก่",
-                    "พริกแกงเขียวหวาน",
-                    "กะทิ",
-                    "มะเขือเปราะ",
-                    "ใบโหระพา"
-                ]
-            },
-            {
-                "name": "แกงมัสมั่นเนื้อ",
-                "ingredients": [
-                    "เนื้อวัว",
-                    "พริกแกงมัสมั่น",
-                    "กะทิ",
-                    "มันฝรั่ง",
-                    "ถั่วลิสง"
-                ]
-            },
-            {
-                "name": "แกงส้มชะอมกุ้ง",
-                "ingredients": [
-                    "กุ้ง",
-                    "ไข่เจียวชะอม",
-                    "พริกแกงส้ม",
-                    "น้ำมะขามเปียก"
-                ]
-            }
-        ],
-        "fried": [
-            {
-                "name": "ไก่ทอดหาดใหญ่",
-                "ingredients": [
-                    "สะโพกไก่",
-                    "แป้งทอดกรอบ",
-                    "หอมเจียว",
-                    "ลูกผักชี",
-                    "ยี่หร่า"
-                ]
-            },
-            {
-                "name": "ปลากะพงทอดน้ำปลา",
-                "ingredients": [
-                    "ปลากะพง",
-                    "น้ำปลา",
-                    "น้ำตาลปี๊บ",
-                    "มะม่วงดิบ"
-                ]
-            },
-            {
-                "name": "หมูสามชั้นทอดเกลือ",
-                "ingredients": [
-                    "หมูสามชั้น",
-                    "เกลือ",
-                    "แป้งทอดกรอบ",
-                    "พริกไทยขาว"
-                ]
-            }
-        ]
-    }
-}
+[
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดตำลึงหมูสับ",
+    "ingredients": "ใบตำลึง, หมูสับ, ซีอิ๊วขาว, น้ำซุปกระดูกหมู, รากผักชี, พริกไทย, กระเทียม, เกลือ",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/12/28/0c2fae6de01649da9c8e1733c600a4ca.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "มะระยัดไส้หมูสับ",
+    "ingredients": "หมูสับ, มะระ, วุ้นเส้น, เห็ดหอม, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, น้ำมันหอย, น้ำตาล, น้ำซุป",
+    "Image_url": "https://homeyselect.co/wp-content/uploads/2024/04/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A1%E0%B8%B0%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%A1-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-Instant-Pot.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดฟักเขียวไก่",
+    "ingredients": "ฟักเขียว, เนื้อไก่, กระเทียม, รากผักชี, น้ำปลา, พริกไทย, ผักชี, ต้นหอม, น้ำเปล่า",
+    "Image_url": "https://www.sgethai.com/wp-content/uploads/2022/09/9-25.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปน่องไก่มันฝรั่ง",
+    "ingredients": "น่องไก่, มันฝรั่ง, หัวหอมใหญ่, แครอท, กระเทียม, น้ำเปล่า, ซีอิ๊วขาว, พริกไทยป่น, ต้นหอม, ผักชี",
+    "Image_url": "https://www.hiqfood.com/wp-content/uploads/2023/02/DSC_1651-scaled.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดไข่น้ำ",
+    "ingredients": "หมูสับ, ไข่ไก่, ต้นหอม, ผักชี, กระเทียม, รากผักชี, น้ำเปล่า, ซีอิ๊วขาว, พริกไทยป่น",
+    "Image_url": "https://storage.googleapis.com/cpbs-bucket-cms-uat/web/recipe/e33f7680b11329824d2796605_20240626_151625.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดสาหร่ายเต้าหู้",
+    "ingredients": "หมูสับ, สาหร่ายแห้ง, เต้าหู้ไข่, ต้นหอม, ผักชี, กระเทียม, รากผักชี, น้ำเปล่า, ซีอิ๊วขาว, พริกไทยป่น",
+    "Image_url": "https://www.ajinomoto.co.th/storage/photos/shares/Recipe/Menu/3-12clearsoupwithseaweed/61a8f1070a217.jpeg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดแตงกวายัดไส้",
+    "ingredients": "หมูสับ, แตงกวา, วุ้นเส้น, เห็ดหอม, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, น้ำมันหอย, น้ำตาล, น้ำซุป, ต้นหอม, ผักชี",
+    "Image_url": "https://www.maeban.co.th/upfiles/blog/4017_96_2.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดดอกขจรหมูสับ",
+    "ingredients": "หมูสับ, ดอกขจร, กระเทียม, รากผักชี, น้ำเปล่า, ซีอิ๊วขาว, น้ำตาล, ต้นหอม, ผักชี, พริกไทยป่น",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2019/06/17/4c6628b0c8f04189ba145e22079670c1.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปหางวัว",
+    "ingredients": "หางวัว, น้ำเปล่า, กระเทียม, รากผักชี, ตะไคร้, ใบมะกรูด, ขิง, หอมใหญ่, มะเขือเทศ, มันฝรั่ง, อบเชย, พริกไทย, เกลือ, น้ำปลา, น้ำมะนาว, พริกขี้หนู, ต้นหอม, ผักชี, ใบขึ้นฉ่าย, หอมเจียว",
+    "Image_url": "https://img.kapook.com/u/2016/surauch/cook1/oxtailsoup25.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดเยื่อไผ่กระดูกหมู",
+    "ingredients": "กระดูกหมู, เยื่อไผ่แห้ง, น้ำเปล่า, กระเทียม, รากผักชี, ซีอิ๊วขาว, ต้นหอม, ผักชี, พริกไทยป่น",
+    "Image_url": "https://homeyselect.co/wp-content/uploads/2024/05/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%95%E0%B8%B8%E0%B9%8B%E0%B8%99%E0%B9%80%E0%B8%A2%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%9C%E0%B9%88-1.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดรากบัว",
+    "ingredients": "หมูสับ, รากบัวสด, กระเทียม, รากผักชี, น้ำเปล่า, ซีอิ๊วขาว, ต้นหอม, ผักชี, พริกไทยป่น",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2019/03/04/f7a945de139f468b87cffb0a7fe65a17.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปกระดูกหมูหัวไชเท้า",
+    "ingredients": "กระดูกหมู, หัวไชเท้า, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/DrPiwQL2ixk/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดกะหล่ำปลียัดไส้",
+    "ingredients": "หมูสับ, กะหล่ำปลี, วุ้นเส้น, เห็ดหอม, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, น้ำมันหอย, น้ำตาล, น้ำซุป, ต้นหอม, ผักชี",
+    "Image_url": "https://s359.kapook.com/pagebuilder/61f3276e-f20d-494d-835f-ace17044255e.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มซุปเปอร์ขาไก่ (แบบใส)",
+    "ingredients": "ขาไก่, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, กระเทียม, พริกขี้หนู, มะนาว, น้ำปลา, ผักชี, เกลือ",
+    "Image_url": "https://img-global.cpcdn.com/steps/fd22da3a118f7eb0/400x400cq80/photo.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปมะเขือเทศหมูสับ",
+    "ingredients": "มะเขือเทศ, หมูสับ, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBSXLPMZdwdgNs_mUFywNa98jjn2-9SzyrdA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดหมูสับใบโหระพา",
+    "ingredients": "หมูสับ, ใบโหระพา, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/XwQ-fX8HRgs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBo1-eEL68RMEvzlvgoJoz98T7YOg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปมิโซะหมูสามชั้น",
+    "ingredients": "หมูสามชั้น, มิโซะ, น้ำเปล่า, เต้าหู้ขาว, สาหร่ายวากาเมะ, ต้นหอมญี่ปุ่น, หอมใหญ่, ดาชิ",
+    "Image_url": "https://ungsriwong.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/06/23145510/Tonjiru_30.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดกระเจี๊ยบเขียว",
+    "ingredients": "กระเจี๊ยบเขียว, หมูสับ, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://img-global.cpcdn.com/recipes/fe49dbb36baebfe1/400x400cq80/photo.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดบวบเหลี่ยมไข่",
+    "ingredients": "บวบเหลี่ยม, ไข่ไก่, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/GhQKkzJst2M/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำกุ้งน้ำใส",
+    "ingredients": "กุ้ง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชี, เกลือ",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/11/14/1812ed9b68724eeba1db7f5e4a564068.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บเนื้อ",
+    "ingredients": "เนื้อวัว, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://img-global.cpcdn.com/recipes/62c869a1092c0d40/680x781cq80/%E0%B8%A3%E0%B8%9B-%E0%B8%AB%E0%B8%A5%E0%B8%81-%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%95%E0%B8%A3-%E0%B8%95%E0%B8%A1%E0%B9%81%E0%B8%8B%E0%B8%9A%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มโคล้งปลากรอบ",
+    "ingredients": "ปลากรอบ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกแห้ง, น้ำปลา, น้ำมะนาว, มะเขือเทศ, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://assets.unileversolutions.com/recipes-v2/117912.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำปลาคัง",
+    "ingredients": "ปลาคัง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, เห็ดฟาง, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfP2Qd78HG86eK8oLOHrGCMrs_8gyny00kyA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำขาหมู",
+    "ingredients": "ขาหมู, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, เห็ดฟาง, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WMI_6MVfS1wLAduP8Zc2_wNIMXI1udUiLA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บเอ็นแก้ว",
+    "ingredients": "เอ็นแก้ววัว, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/DC2EZAhElCg/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำหัวปลา",
+    "ingredients": "หัวปลา, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://scontent.fbkk29-4.fna.fbcdn.net/v/t39.30808-6/504890542_5138223513028097_973133344491529243_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF-5CTzjJXlUOwPs5bfiOd-IQ-5vvZIFgIhD7m-9kgWAt6n_YprbVoLxrX8mBtmS7PhGwen67jjLiM7esUguaCF&_nc_ohc=kdSKOfPY1ZQQ7kNvwGbUZTU&_nc_oc=Adku2qTLvjfDAS50rnnsTjef0q7vsYSASEgld1noLB0ollBW3837Hjw1y-nLcArHoFA&_nc_zt=23&_nc_ht=scontent.fbkk29-4.fna&_nc_gid=6H09fW1oGy6AcM0UK3HzAw&oh=00_Afs-uIifI0pEdxD6-OsbcFvn-9FYyNKps1OriSKF85Gtaw&oe=6998F587"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำไข่ปลา",
+    "ingredients": "ไข่ปลา, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://www.lemon8-app.com/seo/image?item_id=7205153766843236865&index=0&sign=05c94f668f8b4b1bd789e2d2a9529657"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บไข่เจียว",
+    "ingredients": "ไข่เจียวหั่นชิ้น, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfo812QPlSLGCHU8gO_bWeUcK0L5EEfT6Ew&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำปลากระป๋อง",
+    "ingredients": "ปลากระป๋อง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/08/26/021b3618591447a0901b639b17ec1504.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มโคล้งปลากะพง",
+    "ingredients": "ปลากะพง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกแห้งคั่ว, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง",
+    "Image_url": "https://i.ytimg.com/vi/pER-QjrsOyM/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำอกไก่น้ำใส",
+    "ingredients": "อกไก่, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/M4WjCD6SLdY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoeeaMVSYgoWpMXuDF1jgnXKSWzA"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บพวงไข่",
+    "ingredients": "พวงไข่ไก่, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/eyBAeoPi3U8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB5Yf3w6uEHjqDiqlwm87tJ4BfmvQ"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำหมูเด้ง",
+    "ingredients": "หมูเด้ง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://img.wongnai.com/p/1968x0/2021/04/04/1d846bd5bbd54da3997cea63aea89c3b.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำกุ้งมังกร",
+    "ingredients": "กุ้งมังกร, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://th.readme.me/f/5635/57ea359c19679a7f405017c4.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำหมึกยัดไส้",
+    "ingredients": "หมึก, หมูสับ, กระเทียม, พริกไทยป่น, รากผักชี, ซีอิ๊วขาว, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://sys.sheepola.co.th/static/images/article/1609995041.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บปลาทู",
+    "ingredients": "ปลาทู, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6AqdHP1PTR25tliYD70NCn2TusAm4HRRYiA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำรวมมิตรทะเล",
+    "ingredients": "กุ้ง, หมึก, เนื้อปลา, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/FQye0e8GQz8/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บลิ้นวัว",
+    "ingredients": "ลิ้นวัว, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKrg5DFfkH39qVHrVLIKrcl54xovoKaWLYXg&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำเนื้อปลากะพง",
+    "ingredients": "ปลากะพง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://assets.unileversolutions.com/recipes-v2/117752.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บหมูสามชั้น",
+    "ingredients": "หมูสามชั้น, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2023/11/01/8604af384693475d94760ca4e5342e55.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำไก่บ้านใบมะขามอ่อน",
+    "ingredients": "ไก่บ้าน, ใบมะขามอ่อน, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/Jkbk21DwJlE/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำกุ้งแม่น้ำเผา",
+    "ingredients": "กุ้งแม่น้ำเผา, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://www.maeban.co.th/upfiles/blog/2844_81_22.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บซี่โครงอ่อนมะระ",
+    "ingredients": "ซี่โครงหมูอ่อน, มะระ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/zVQkjzUbM4U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDqdZaXsiTuKyU_6b2VmbIWj-0bKA"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำเห็ดรวม",
+    "ingredients": "เห็ดฟาง, เห็ดนางฟ้า, เห็ดเข็มทอง, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://img.wongnai.com/p/1968x0/2019/12/03/48efa41e5c5a4a9684e1cb336ee3bce4.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าไก่",
+    "ingredients": "เนื้อไก่, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://s359.kapook.com/pagebuilder/f103aacb-cbd7-4e82-9e73-c134b2551aef.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิสายบัวปลาทู",
+    "ingredients": "ปลาทู, สายบัว, กะทิ, หอมแดง, น้ำปลา, เกลือ",
+    "Image_url": "https://s359.kapook.com/pagebuilder/febb599b-98a7-4106-8d0e-a754656852c3.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าปลากะพง",
+    "ingredients": "ปลากะพง, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, เกลือ",
+    "Image_url": "https://www.papamenu.com/wp-content/uploads/2010/04/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิหน่อไม้สดกุ้งสด",
+    "ingredients": "หน่อไม้สด, กุ้งสด, กะทิ, หอมแดง, น้ำปลา, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/Rk_yKRVHVfk/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าเห็ด 5 อย่าง",
+    "ingredients": "เห็ดฟาง, เห็ดนางฟ้า, เห็ดเข็มทอง, เห็ดหอม, เห็ดออรินจิ, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, น้ำปลา, น้ำมะนาว, เกลือ",
+    "Image_url": "https://www.kruamoomoo.com/wp-content/uploads/2019/10/tom-ka-hed-ja-recipe-kruamoomoo-46.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิผักเหลียงใส่กุ้ง",
+    "ingredients": "ผักเหลียง, กุ้งสด, กะทิ, หอมแดง, กะปิ, น้ำปลา, เกลือ",
+    "Image_url": "https://s359.kapook.com/pagebuilder/aeebf2e3-c02c-47f9-ba8d-eac462c8deff.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าขาหมู",
+    "ingredients": "ขาหมู, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/adkh9Q4wRZ4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCEYyIlPWXig0VQIyuh-VChH3xjtA"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิฟักทองหมูสามชั้น",
+    "ingredients": "ฟักทอง, หมูสามชั้น, กะทิ, หอมแดง, น้ำปลา, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/r_f1AA6Zfx8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAlWgWVRiKiAORvkgxckFy-MAZOLg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าหัวปลีไก่",
+    "ingredients": "หัวปลี, เนื้อไก่, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, น้ำปลา, น้ำมะนาว, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/lEhvUp76qC8/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปเป็ดพะโล้ใส่มะนาวดอง",
+    "ingredients": "เป็ดพะโล้, มะนาวดอง, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทยเม็ด, ซีอิ๊วขาว, น้ำปลา, ผักชี",
+    "Image_url": "https://www.gourmetandcuisine.com/Images/editor_upload/_editor20211116031435_original.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าทะเลน้ำลึก",
+    "ingredients": "กุ้ง, ปลาหมึก, เนื้อปลา, กะทิ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, พริกขี้หนู, น้ำปลา, น้ำมะนาว, เห็ดฟาง, ผักชี",
+    "Image_url": "https://img-global.cpcdn.com/recipes/771a1cee398f66c9/680x781f0.5_0.501017_1.0q80/%E0%B8%A3%E0%B8%9B-%E0%B8%AB%E0%B8%A5%E0%B8%81-%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%95%E0%B8%A3-%E0%B8%95%E0%B8%A1%E0%B8%82%E0%B8%B2%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%99%E0%B8%B3%E0%B8%A5%E0%B8%81.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิปลาเค็มผักรวม",
+    "ingredients": "ปลาเค็ม, กะทิ, น้ำเปล่า, กะหล่ำปลี, แครอท, หอมแดง, น้ำปลา, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/c-GPiX96CQw/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจับฉ่าย",
+    "ingredients": "กะหล่ำปลี, หัวไชเท้า, แครอท, เห็ดหอม, เต้าหู้ขาว, น้ำเปล่า, กระเทียม, ซีอิ๊วขาว, เกลือ, น้ำตาล, ผักชี",
+    "Image_url": "https://www.maggi.co.th/sites/default/files/srh_recipes/0332d7a554d3fae5af703defd2fcd979.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ไก่ตุ๋นยาจีน",
+    "ingredients": "เนื้อไก่, น้ำเปล่า, เห็ดหอม, เก๋ากี้, พุทราจีน, รากบัว, ซีอิ๊วขาว, เกลือ, ขิง, ผักชี",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/01/07/d04547e4ca4745b59d5c4ece7aac8859.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ขาหมูพะโล้",
+    "ingredients": "ขาหมู, ไข่ต้ม, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, อบเชย, โป๊ยกั๊ก, ซีอิ๊วขาว, ซีอิ๊วดำ, น้ำตาลปี๊บ",
+    "Image_url": "https://img-global.cpcdn.com/steps/6e55f80e41958f6a/400x400cq80/photo.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดเยื่อไผ่ตุ๋นยาจีน",
+    "ingredients": "เยื่อไผ่, หมูสับ, เห็ดหอม, เก๋ากี้, พุทราจีน, น้ำเปล่า, กระเทียม, รากผักชี, ซีอิ๊วขาว, เกลือ, ผักชี",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/02/14/dc9b733bc3054bf18fa59a1cf6283a1e.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเลือดหมู",
+    "ingredients": "เลือดหมู, หมูสับ, เครื่องในหมู, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, ต้นหอม, ผักชี",
+    "Image_url": "https://www.khaotrachat.com/wp-content/uploads/2023/02/CP_2020_%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%89%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7_%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9-1-scaled.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "เป็ดตุ๋นมะนาวดอง",
+    "ingredients": "เนื้อเป็ด, มะนาวดอง, น้ำมะนาวดอง, น้ำเปล่า, กระเทียม, รากผักชี, ซีอิ๊วขาว, เกลือ, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/C2XwjqKCYtQ/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มหมูชะมวง",
+    "ingredients": "หมูสามชั้น, ใบชะมวง, น้ำเปล่า, กระเทียม, น้ำปลา, น้ำตาลปี๊บ, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/q_g6i5NnU-s/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ไก่ใต้น้ำ",
+    "ingredients": "เนื้อไก่, น้ำเปล่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmIhKt9eLulItLytTM9euSEG0CKbFTe6K9aA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกระดูกหมูใบพายส้มป่อย",
+    "ingredients": "กระดูกหมู, ใบส้มป่อย, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, น้ำปลา, เกลือ, ผักชี",
+    "Image_url": "https://s359.kapook.com/pagebuilder/132c1156-9929-421e-94a7-eb0f60158ca1.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเค็มปลาทู",
+    "ingredients": "ปลาทู, น้ำเปล่า, ซีอิ๊วขาว, ซีอิ๊วดำ, น้ำตาลปี๊บ, กระเทียม, รากผักชี, พริกไทย",
+    "Image_url": "https://i.ytimg.com/vi/iNVhnJqVlUA/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปเนื้อน่องลายตุ๋น",
+    "ingredients": "เนื้อน่องลาย, น้ำเปล่า, หัวไชเท้า, แครอท, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, ผักชี",
+    "Image_url": "https://img.kapook.com/u/2016/surauch/cook1/s1.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "กระเพาะปลาต้มน้ำแดง",
+    "ingredients": "กระเพาะปลาแห้ง, น้ำเปล่า, เห็ดหอม, เนื้อไก่ฉีก, ซีอิ๊วขาว, ซีอิ๊วดำ, น้ำมันหอย, แป้งมัน, ไข่ไก่, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/_lpUmxqw4Cs/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดปลาหมึกแห้งหมูสับ",
+    "ingredients": "ปลาหมึกแห้ง, หมูสับ, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, ต้นหอม, ผักชี",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT89m69qifCN1OUZqWA0fVAl3gGSBJzsrxF4w&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มขี้เหล็กหมูย่าง",
+    "ingredients": "ใบขี้เหล็ก, หมูย่าง, น้ำเปล่า, หอมแดง, กระเทียม, น้ำปลา, เกลือ, ผักชี",
+    "Image_url": "https://www.pim.in.th/images/all-side-dish-pork/kang-kee-lek/kang-kee-leg004.JPG"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเนื้อบ้านๆ",
+    "ingredients": "เนื้อวัว, น้ำเปล่า, ข่า, ตะไคร้, หอมแดง, กระเทียม, น้ำปลา, เกลือ, ผักชีฝรั่ง",
+    "Image_url": "https://i.ytimg.com/vi/7_0u7ujBOnQ/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มปลาทูสายบัวน้ำใส",
+    "ingredients": "ปลาทู, สายบัว, น้ำเปล่า, หอมแดง, กระเทียม, น้ำปลา, น้ำมะนาว, เกลือ, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/D10iJGS_9cA/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดวุ้นเส้นยัดไส้ปลาหมึก",
+    "ingredients": "ปลาหมึก, วุ้นเส้น, หมูสับ, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/EjkU9W-2XuQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA9hOfBrHL4P1W2gLVg713_zCkn6w"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปไข่สไตล์จีน",
+    "ingredients": "ไข่ไก่, น้ำเปล่า, กระเทียม, ซีอิ๊วขาว, น้ำมันงา, พริกไทย, ต้นหอม",
+    "Image_url": "https://i.ytimg.com/vi/r8GPZlyxZKY/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิปูม้าหน่อไม้ดอง",
+    "ingredients": "ปูม้า, หน่อไม้ดอง, กะทิ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, น้ำปลา, พริกขี้หนู, ผักชี",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGybUgd-Wakluu30FAsQqyyEDaCXxOmYcTvA&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "อ่อมเนื้อ",
+    "ingredients": "เนื้อวัว, น้ำเปล่า, ตะไคร้, หอมแดง, กระเทียม, พริกขี้หนู, ข้าวคั่ว, น้ำปลา, ใบมะกรูด, ผักชีลาว, ใบแมงลัก",
+    "Image_url": "https://i.ytimg.com/vi/_YCyhQwToII/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเปรตปลาไหล",
+    "ingredients": "ปลาไหล, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำปลาร้า, ผักชีฝรั่ง",
+    "Image_url": "https://i.ytimg.com/vi/hudUjGRPROs/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "แกงส้มไข่ปลาริวกิว",
+    "ingredients": "ไข่ปลาริวกิว, น้ำเปล่า, น้ำพริกแกงส้ม, มะขามเปียก, น้ำปลา, น้ำตาล, ผักตามชอบ, ผักชี",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/01/12/57d5fef14c0a41328f6776e30c9982be.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดกะหล่ำปลีซี่โครงหมู",
+    "ingredients": "ซี่โครงหมู, กะหล่ำปลี, น้ำเปล่า, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, เกลือ, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/axBEQgbaXbA/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บไข่ปลาช่อน",
+    "ingredients": "ไข่ปลาช่อน, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/mQWCS8bkg-Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAjEKVft0q1TWT-tvDX_hGLNpLabQ"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดผักกาดขาวเต้าหู้ไข่หมูสับ",
+    "ingredients": "ผักกาดขาว, เต้าหู้ไข่, หมูสับ, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, น้ำปลา, น้ำเปล่า, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/Te47VmADjp8/sddefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดไข่เจียวหมูสับ",
+    "ingredients": "ไข่ไก่, หมูสับ, กระเทียม, รากผักชี, พริกไทยป่น, ซีอิ๊วขาว, น้ำเปล่า, เกลือ, น้ำมันพืช, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/Q_3B2VBztsw/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดเซี่ยงจี๊",
+    "ingredients": "เซี่ยงจี๊ (ไตหมู), น้ำเปล่า, ขิง, กระเทียม, ซีอิ๊วขาว, เกลือ, พริกไทยป่น, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/yBm6PxAlQSY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgVCgyMA8=&rs=AOn4CLDPA4S3Z6kmGipz_lMJPD_dPv_Cqw"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มอึ่งใส่ใบมะขามอ่อน",
+    "ingredients": "อึ่ง, น้ำเปล่า, ใบมะขามอ่อน, ตะไคร้, หอมแดง, พริกขี้หนู, น้ำปลา, ผักชีฝรั่ง",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMAVBJpqP2gsZTdZ5lMS_nQDFpMR6TaLXWkw&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มส้มปลานิลใส่ขมิ้น",
+    "ingredients": "ปลานิล, น้ำเปล่า, ขมิ้นสด, หอมแดง, น้ำมะขามเปียก, น้ำปลา, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/NvhJYGkjNdg/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มโคล้งหัวปลาทูแม่กลอง",
+    "ingredients": "หัวปลาทู, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกแห้งคั่ว, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง",
+    "Image_url": "https://i.ytimg.com/vi/6XT0YPXQx4U/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำกุ้งน้ำข้น",
+    "ingredients": "กุ้งสด, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, เห็ดฟาง, นมข้นจืด, น้ำพริกเผา, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง",
+    "Image_url": "https://food.mthai.com/app/uploads/2016/10/Tomyum.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บกระดูกอ่อนใส่มะดัน",
+    "ingredients": "กระดูกหมูอ่อน, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, มะดัน, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง",
+    "Image_url": "https://f.ptcdn.info/834/053/000/owvk05jmi4HunXw86cG-o.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มโคล้งปลากรอบใบมะขามอ่อน",
+    "ingredients": "ปลากรอบ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, ใบมะขามอ่อน, หอมแดง, พริกแห้งคั่ว, น้ำปลา, น้ำมะนาว",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/07/14/ee7d28f8b3a44cf8ab4b5b99d0b13d9e.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำโป๊ะแตก",
+    "ingredients": "กุ้ง, ปลาหมึก, หอยแมลงภู่, ปลา, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, เห็ดฟาง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ใบโหระพา",
+    "Image_url": "https://food.mthai.com/app/uploads/2018/07/Hot-and-sour-seafood-soup.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเนื้อน่องลายใบกระเพรา",
+    "ingredients": "เนื้อน่องลาย, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, กระเทียม, พริกขี้หนู, น้ำปลา, ซีอิ๊วขาว, ใบกระเพรา",
+    "Image_url": "https://img-global.cpcdn.com/recipes/224c17e372733b08/680x781cq80/%E0%B8%A3%E0%B8%9B-%E0%B8%AB%E0%B8%A5%E0%B8%81-%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%95%E0%B8%A3-%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%81%E0%B9%83%E0%B8%9A%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บไส้ตัน",
+    "ingredients": "ไส้ตันหมู, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ข้าวคั่ว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://i.ytimg.com/vi/IrCekiOlYks/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBgdy1_JsRhN4IIGIlwZt4K_ajQqQ"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าไข่เจียว",
+    "ingredients": "ไข่ไก่, น้ำเปล่า, กะทิ, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, น้ำปลา, น้ำมะนาว, น้ำมันพืช, ผักชี",
+    "Image_url": "https://f.ptcdn.info/209/068/000/q5z8f425el18U7lPjvRQ-o.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิไหลบัวกุ้งสด",
+    "ingredients": "ไหลบัว, กุ้งสด, กะทิ, น้ำเปล่า, หอมแดง, น้ำปลา, น้ำตาล, เกลือ",
+    "Image_url": "https://wegophatthalung.com/wp-content/uploads/2019/07/Content_Kati_Saibaukungsod_1.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิใบชะครามปูเนื้อ",
+    "ingredients": "ใบชะคราม, เนื้อปู, กะทิ, น้ำเปล่า, หอมแดง, น้ำปลา, น้ำตาล",
+    "Image_url": "https://i.ytimg.com/vi/v1HgQgw3yc4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAjsQdEkTZb2AsH7gdXumqK8UGAkQ"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มส้มปลากระบอก",
+    "ingredients": "ปลากระบอก, น้ำเปล่า, ขิง, หอมแดง, น้ำมะขามเปียก, น้ำปลา, น้ำตาล, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/U9AhUxX1bUc/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มระกำไก่บ้าน",
+    "ingredients": "ไก่บ้าน, ระกำ, น้ำเปล่า, ข่า, ตะไคร้, ใบมะกรูด, หอมแดง, พริกขี้หนู, น้ำปลา, น้ำมะนาว, ผักชีฝรั่ง, เกลือ",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJClBkvoIfRj0QqVSP0vBt5SpiHNpFqIrLTg&s"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มส้มปลาช่อนใส่ใบมะขามอ่อน",
+    "ingredients": "ปลาช่อน, ใบมะขามอ่อน, ขิง, หอมแดง, กระเทียม, น้ำปลา, น้ำมะขามเปียก, น้ำตาลปี๊บ, น้ำเปล่า, พริกแห้ง",
+    "Image_url": "https://img-global.cpcdn.com/recipes/7047379297154fab/680x781cq80/%E0%B8%A3%E0%B8%9B-%E0%B8%AB%E0%B8%A5%E0%B8%81-%E0%B8%82%E0%B8%AD%E0%B8%87-%E0%B8%AA%E0%B8%95%E0%B8%A3-%E0%B8%95%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%8A%E0%B8%AD%E0%B8%99%E0%B8%99%E0%B8%B2%E0%B9%83%E0%B8%9A%E0%B8%A1%E0%B8%B0%E0%B8%82%E0%B8%B2%E0%B8%A1%E0%B8%AD%E0%B8%AD%E0%B8%99-%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%B2%E0%B8%A2%E0%B9%86-by%E0%B8%88%E0%B9%84%E0%B8%A3%E0%B8%A3%E0%B8%95%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดลูกรอก",
+    "ingredients": "ลูกรอก, กระเทียม, รากผักชี, พริกไทย, ซีอิ๊วขาว, น้ำปลา, น้ำเปล่า, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/b68aPjtXFLU/maxresdefault.jpg"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจืดเห็ดนางฟ้าหมูสับ",
+    "ingredients": "เห็ดนางฟ้า, หมูสับ, เต้าหู้ไข่, กระเทียม, รากผักชี, พริกไทย, น้ำซุปกระดูกหมู, ซีอิ๊วขาว, ซอสปรุงรส, เกลือ, น้ำตาล, ต้นหอม, ผักชี",
+    "Image_url": "https://i.ytimg.com/vi/4ziWL6mmMuI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAOaa6PeBPs8eLy1dI67bFW_iMs2w"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงเขียวหวาน, กะทิ, มะเขือเปราะ, มะเขือพวง, ใบโหระพา, พริกชี้ฟ้า, น้ำปลา, น้ำตาล, น้ำเปล่า",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2019/03/18/11e7bbd7bbab421f9e1f2bc6c1d64e59.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงพะแนงเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงพะแนง, กะทิ, ใบมะกรูด, พริกชี้ฟ้า, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2021/08/01/f3082a033fbc46b7ae8db1e502601995.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงมัสมั่นเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงมัสมั่น, กะทิ, มันฝรั่ง, หอมใหญ่, ถั่วลิสงคั่ว, น้ำปลา, น้ำตาลปี๊บ, น้ำมะขามเปียก",
+    "Image_url": "https://i.ytimg.com/vi/bQpFbDS_ZQc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGiHkqiw4XmT6Kn0gvKVy3BjNNyw"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วกลิ้งเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงคั่วกลิ้ง, ใบมะกรูด, น้ำปลา, น้ำตาล, น้ำเปล่า",
+    "Image_url": "https://i.ytimg.com/vi/3mMmO3yLh0I/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงไตปลาเนื้อ",
+    "ingredients": "เนื้อวัว, ไตปลา, พริกแกงไตปลา, หน่อไม้, ถั่วฝักยาว, มะเขือเปราะ, ใบมะกรูด, น้ำเปล่า",
+    "Image_url": "https://i.ytimg.com/vi/AdZdvMa4Et4/sddefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดเนื้อหน่อไม้ดอง",
+    "ingredients": "เนื้อวัว, หน่อไม้ดอง, พริกแกงเผ็ด, กะทิ, ใบโหระพา, พริกชี้ฟ้า, น้ำปลา, น้ำตาล",
+    "Image_url": "https://i.ytimg.com/vi/_f5y28qKZeI/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเลียงกุ้งสด",
+    "ingredients": "กุ้งสด, ฟักทอง, บวบ, ข้าวโพดอ่อน, ใบแมงลัก, พริกไทย, หอมแดง, กะปิ, น้ำปลา, น้ำเปล่า",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2019/02/11/ccc724ce2a384de8bc34f13c7020c0ce.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงขี้เหล็กเนื้อย่าง",
+    "ingredients": "เนื้อย่าง, ใบขี้เหล็ก, กะทิ, พริกแกงเผ็ด, น้ำปลา, น้ำตาล, น้ำเปล่า",
+    "Image_url": "https://img.kapook.com/u/2017/surauch/cooking/w1_31.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงระแวงเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงระแวง, กะทิ, ตะไคร้ซอย, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://s359.kapook.com/pagebuilder/635b9f39-21ea-43f6-8657-bc4326760926.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงหอมเนื้อ (แกงกระหรี่เนื้อ)",
+    "ingredients": "เนื้อวัว, ผงกะหรี่, กะทิ, มันฝรั่ง, หอมใหญ่, น้ำปลา, น้ำตาล, น้ำเปล่า",
+    "Image_url": "https://api2.krua.co/wp-content/uploads/2021/03/RI1645_ImageBanner_1140x507.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเทโพเนื้อ",
+    "ingredients": "เนื้อวัว, ผักบุ้ง, กะทิ, พริกแกงเผ็ด, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ, น้ำมะขามเปียก",
+    "Image_url": "https://www.pim.in.th/images/all-side-dish-pork/curry-tepo/21.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่าเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงป่า, น้ำเปล่า, มะเขือเปราะ, ถั่วฝักยาว, ใบกะเพรา, พริกไทยอ่อน, ใบมะกรูด, น้ำปลา",
+    "Image_url": "https://img.kapook.com/u/2017/surauch/cooking/r1_4.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเนื้อย่างใบชะพลู",
+    "ingredients": "เนื้อย่าง, ใบชะพลู, กะทิ, พริกแกงเผ็ด, หอมแดง, น้ำปลา, น้ำตาลปี๊บ, น้ำเปล่า",
+    "Image_url": "https://i.ytimg.com/vi/VYRMkeGEgJo/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงอ่อมเครื่องในวัว",
+    "ingredients": "เครื่องในวัว, น้ำเปล่า, พริกแกงอ่อม, ตะไคร้, หอมแดง, ใบมะกรูด, ข้าวคั่ว, น้ำปลา, ผักชีลาว, ใบแมงลัก",
+    "Image_url": "https://i.ytimg.com/vi/mI59on_LL4k/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCL-d93sbykltSFt3pw1pPL1ciuWA"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงโฮะเนื้อ",
+    "ingredients": "เนื้อวัว, วุ้นเส้น, หน่อไม้ดอง, พริกแกงเผ็ด, กะทิ, ใบมะกรูด, น้ำปลา, น้ำตาล",
+    "Image_url": "https://i.ytimg.com/vi/1N4O8KI5c4Q/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงฮังเลเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงฮังเล, กระเทียม, ขิง, น้ำมะขามเปียก, น้ำปลา, น้ำตาลปี๊บ, น้ำเปล่า",
+    "Image_url": "https://i.ytimg.com/vi/bNMXMPDYK-k/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มเนื้อ",
+    "ingredients": "เนื้อวัว, พริกแกงส้ม, น้ำเปล่า, มะขามเปียก, น้ำปลา, น้ำตาล, ผักตามชอบ",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/08/04/39e56b71a18f46d48c230d919e3d4371.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานไก่",
+    "ingredients": "เนื้อไก่, พริกแกงเขียวหวาน, กะทิ, มะเขือเปราะ, มะเขือพวง, ใบโหระพา, น้ำปลา, น้ำตาล",
+    "Image_url": "https://www.ajinomoto.co.th/storage/photos/shares/Recipe/Menu/3-19Greencurry/61a8f3939f40f.jpeg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดไก่ใส่มะเขือ",
+    "ingredients": "เนื้อไก่, พริกแกงเผ็ด, กะทิ, มะเขือเปราะ, ใบโหระพา, พริกชี้ฟ้า, น้ำปลา, น้ำตาล",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjciaodRMB3OOXxpTqWzc4EC-Pd8YLGgMOoQ&s"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงอ่อมไก่บ้าน",
+    "ingredients": "ก่บ้าน, น้ำเปล่า, พริกแกงอ่อม, ตะไคร้, หอมแดง, ใบมะกรูด, ข้าวคั่ว, น้ำปลา, ผักชีลาว, ใบแมงลัก",
+    "Image_url": "https://i.ytimg.com/vi/O_hiuaa3XZE/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วไก่ใส่หน่อไม้สด",
+    "ingredients": "เนื้อไก่, หน่อไม้สด, พริกแกงเผ็ด, กะทิ, ใบมะกรูด, น้ำปลา, น้ำตาล",
+    "Image_url": "https://i.ytimg.com/vi/J8_8rd7rbg0/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเหลืองไก่ (แกงส้มใต้)",
+    "ingredients": "เนื้อไก่, พริกแกงเหลือง, น้ำเปล่า, มะขามเปียก, น้ำปลา, น้ำตาล, ผักตามชอบ",
+    "Image_url": "https://i.ytimg.com/vi/ubKTuJ35EWs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB0EBtXinCtoUHpHc3MV-S0tcgiEg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงไก่ใส่ฟักเขียว",
+    "ingredients": "เนื้อไก่, ฟักเขียว, พริกแกงเผ็ด, กะทิ, ใบโหระพา, น้ำปลา, น้ำตาล",
+    "Image_url": "https://i.ytimg.com/vi/uLR_cHoOLa8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA5A1UFROy3r-XYZX0qHLxpiRS9zQ"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่าไก่บ้าน",
+    "ingredients": "ไก่บ้าน, พริกแกงป่า, น้ำเปล่า, มะเขือเปราะ, ถั่วฝักยาว, ใบกะเพรา, พริกไทยอ่อน, ใบมะกรูด, น้ำปลา",
+    "Image_url": "https://i.ytimg.com/vi/MiZtEP8zsm0/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะหรี่ไก่",
+    "ingredients": "เนื้อไก่, ผงกะหรี่, หัวกะทิ, หางกะทิ, มันฝรั่ง, หอมหัวใหญ่, กระเทียม, น้ำปลา, น้ำตาลปี๊บ, น้ำมันพืช",
+    "Image_url": "https://www.pholfoodmafia.com/wp-content/uploads/2020/08/6Chicken-Curry.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงพะแนงไก่",
+    "ingredients": "เนื้อไก่, พริกแกงพะแนง, หัวกะทิ, หางกะทิ, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ, พริกชี้ฟ้า, น้ำมันพืช",
+    "Image_url": "https://i.ytimg.com/vi/ZApzBv3YuEg/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงแคไก่",
+    "ingredients": "เนื้อไก่, พริกแกงแค, ฟักทอง, ถั่วฝักยาว, มะเขือพวง, ใบชะอม, ใบแมงลัก, น้ำปลา, น้ำปลาร้า, น้ำเปล่า",
+    "Image_url": "https://wwwgreeneryorg2b5fd.zapwp.com/q:i/r:1/wp:1/w:372/u:https://www.greenery.org/wp-content/uploads/2020/10/%E0%B8%A3%E0%B8%AA%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99_%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%81%E0%B8%84-11.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงไก่ใส่หน่อไม้ส้ม",
+    "ingredients": "เนื้อไก่, หน่อไม้ส้ม, พริกแกงเผ็ด, หัวกะทิ, หางกะทิ, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://i.ytimg.com/vi/KHIYRl2L1a0/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วไก่ใส่ฟักทอง",
+    "ingredients": "เนื้อไก่, ฟักทอง, พริกแกงเผ็ด, หัวกะทิ, หางกะทิ, ใบโหระพา, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://i.ytimg.com/vi/3fa65HK_ueU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD8RhgBmtKQezfWXhap0gLpbOGm8Q"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงยอดมะพร้าวอ่อนไก่",
+    "ingredients": "เนื้อไก่, ยอดมะพร้าวอ่อน, พริกแกงเผ็ด, หัวกะทิ, หางกะทิ, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://i.ytimg.com/vi/DNLkuNdrFI8/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงระแวงไก่",
+    "ingredients": "เนื้อไก่, พริกแกงระแวง, หัวกะทิ, หางกะทิ, ตะไคร้, ใบมะกรูด, ใบโหระพา, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://www.bloggang.com/data/j/jazzy-bong/picture/1659424398.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงไก่ใส่หัวปลี",
+    "ingredients": "เนื้อไก่, หัวปลี, พริกแกงเผ็ด, หัวกะทิ, หางกะทิ, ใบมะกรูด, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://i.ytimg.com/vi/srxibI4RL-k/maxresdefault.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วไก่ใส่ใบชะมวง",
+    "ingredients": "เนื้อไก่, ใบชะมวง, พริกแกงเผ็ด, หัวกะทิ, หางกะทิ, น้ำปลา, น้ำตาลปี๊บ",
+    "Image_url": "https://i.ytimg.com/vi/wFIwBmcbnxw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDeRS4GcKkICBiAsFr8ltJ5jmr57A"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงมัสมั่นไก่",
+    "ingredients": "เนื้อไก่, พริกแกงมัสมั่น, หัวกะทิ, หางกะทิ, มันฝรั่ง, หอมหัวใหญ่, ถั่วลิสงคั่ว, ใบกระวาน, อบเชย, น้ำปลา, น้ำตาลปี๊บ, น้ำมะขามเปียก",
+    "Image_url": "https://img.wongnai.com/p/1920x0/2018/10/19/a67e7aeb0c0b462391961bddf7365225.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กะเพราหมูสับ",
+    "ingredients": "หมูสับ, ใบกะเพรา, พริก, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูทอดกระเทียม",
+    "ingredients": "หมูชิ้น, กระเทียมสับ, พริกไทย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดน้ำมันหอย",
+    "ingredients": "เนื้อวัวสไลด์, หอมใหญ่, ต้นหอม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดพริกหยวก",
+    "ingredients": "หมูชิ้น, พริกหยวก, หอมใหญ่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%AB%E0%B8%A2%E0%B8%A7%E0%B8%81.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดขิง",
+    "ingredients": "หมูชิ้น, ขิงซอย, เห็ดหูหนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "คะน้าหมูกรอบ",
+    "ingredients": "คะน้า, หมูกรอบ, พริกขี้หนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%84%E0%B8%B0%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "พริกแกงถั่วฝักยาว",
+    "ingredients": "หมูชิ้น, พริกแกงเผ็ด, ถั่วฝักยาว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดซอสเกาหลี",
+    "ingredients": "หมูสไลด์, โคชูจัง, หอมใหญ่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดพริกไทยดำ",
+    "ingredients": "เนื้อวัว, พริกไทยดำบุบ, พริกหวาน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%94%E0%B8%B3.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดเปรี้ยวหวาน",
+    "ingredients": "หมู, สับปะรด, แตงกวา, มะเขือเทศ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดบล็อกโคลี",
+    "ingredients": "กุ้งสด, บล็อกโคลี, แครอท",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B5.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาหมึกผัดไข่เค็ม",
+    "ingredients": "ปลาหมึก, ไข่แดงเค็ม, น้ำพริกเผา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งคั่วพริกเกลือ",
+    "ingredients": "กุ้ง, พริกแดงสับ, กระเทียมสับ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยลายพริกเผา",
+    "ingredients": "หอยลาย, น้ำพริกเผา, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดหน่อไม้ฝรั่ง",
+    "ingredients": "กุ้งสด, หน่อไม้ฝรั่ง, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อปลาผัดขึ้นฉ่าย",
+    "ingredients": "เนื้อปลา, ขึ้นฉ่าย, ขิงซอย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดผงกะหรี่",
+    "ingredients": "กุ้ง, ผงกะหรี่, ไข่ไก่, นมข้นจืด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาหมึกผัดกะเพรา",
+    "ingredients": "ปลาหมึก, ใบกะเพรา, พริกสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไข่เจียวสมุนไพรผัด",
+    "ingredients": "ไข่ไก่, ตะไคร้, ใบมะกรูด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%99%E0%B9%84%E0%B8%9E%E0%B8%A3%E0%B8%9C%E0%B8%B1%E0%B8%94.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เต้าหู้ทรงเครื่อง",
+    "ingredients": "เต้าหู้ไข่, หมูสับ, แครอท",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไข่ผัดมะเขือเทศ",
+    "ingredients": "ไข่ไก่, มะเขือเทศ, ต้นหอม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%97%E0%B8%A8.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ดอกหอมผัดตับ",
+    "ingredients": "ตับหมู, ดอกหอม, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไข่คั่วแหนม",
+    "ingredients": "แหนม, ไข่ไก่, พริกขี้หนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เต้าหู้ผัดถังแตก",
+    "ingredients": "เต้าหู้ขาว, ถั่วงอก, กุยช่าย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%96%E0%B8%B1%E0%B8%87%E0%B9%81%E0%B8%95%E0%B8%81.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กะหล่ำปลีผัดน้ำปลา",
+    "ingredients": "กะหล่ำปลี, น้ำปลาดี, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดผักบุ้งไฟแดง",
+    "ingredients": "ผักบุ้ง, พริก, เต้าเจี้ยว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B9%81%E0%B8%94%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดผักรวมมิตร",
+    "ingredients": "แครอท, ข้าวโพดอ่อน, บล็อกโคลี",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ยอดมะพร้าวผัดกุ้ง",
+    "ingredients": "ยอดมะพร้าว, กุ้ง, พริกสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มะเขือยาวผัดโหระพา",
+    "ingredients": "มะเขือยาว, หมูสับ, เต้าเจี้ยว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%AB%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "แขนงหมูกรอบ",
+    "ingredients": "ผักแขนง, หมูกรอบ, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%82%E0%B8%99%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "สายบัวผัดกุ้ง",
+    "ingredients": "สายบัว, กุ้ง, กะปิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดซีอิ๊ว",
+    "ingredients": "เส้นใหญ่, หมูชิ้น, คะน้า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B9%8A%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ก๋วยเตี๋ยวคั่วไก่",
+    "ingredients": "เส้นใหญ่, อกไก่, ไข่ไก่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%84%E0%B8%81%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มาม่าผัดขี้เมา",
+    "ingredients": "เส้นมาม่า, หมู, ใบกะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดไทย (สำเร็จรูป)",
+    "ingredients": "เส้นเล็ก, กุ้ง, ซอสผัดไทย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%97%E0%B8%A2%20(%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88%E0%B8%A3%E0%B8%B9%E0%B8%9B).jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดซอสมะขาม",
+    "ingredients": "กุ้ง, หอมเจียว, น้ำมะขามเปียก",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B0%E0%B8%82%E0%B8%B2%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดกะปิ",
+    "ingredients": "หมูสามชั้น, กะปิ, หอมแดง, ตะไคร้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4%E0%B8%AB%E0%B8%A1%E0%B8%B9.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดเม็ดมะม่วง",
+    "ingredients": "อกไก่, เม็ดมะม่วงหิมพานต์, พริกแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หน่อไม้ดองผัดเผ็ดไก่",
+    "ingredients": "ไก่, หน่อไม้ดอง, พริกแกงเผ็ด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B9%84%E0%B8%81%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ตับไก่ผัดพริกแห้ง",
+    "ingredients": "ตับไก่, พริกแห้ง, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B8%B1%E0%B8%9A%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวโพดอ่อนผัดหมูสับ",
+    "ingredients": "ข้าวโพดอ่อน, หมูสับ, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%82%E0%B8%9E%E0%B8%94%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "บรอกโคลีผัดเห็ดหอม",
+    "ingredients": "บรอกโคลี, เห็ดหอมสด, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%AB%E0%B8%AD%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "วุ้นเส้นผัดไข่",
+    "ingredients": "วุ้นเส้น, ไข่ไก่, กะหล่ำปลี, มะเขือเทศ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เต้าหู้ทอดผัดพริกเกลือ",
+    "ingredients": "เต้าหู้แข็ง, กระเทียม, พริกขี้หนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเผ็ดปลาดุกทอดกรอบ",
+    "ingredients": "ปลาดุกทอดกรอบ, พริกแกงเผ็ด, กระชาย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%B8%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไข่คั่วพริกแกง",
+    "ingredients": "ไข่ไก่, พริกแกงเผ็ด, ใบมะกรูด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูยอผัดไข่",
+    "ingredients": "หมูยอ, ไข่ไก่, หอมใหญ่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุยช่ายขาวผัดหมูกรอบ",
+    "ingredients": "กุยช่ายขาว, หมูกรอบ, เต้าเจี้ยว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B8%A2%E0%B8%8A%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เซี่ยงไฮ้ผัดขี้เมา",
+    "ingredients": "เส้นเซี่ยงไฮ้, กุ้ง/หมู, ใบกะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B9%84%E0%B8%AE%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดวุ้นเส้นชะอมกุ้ง",
+    "ingredients": "วุ้นเส้น, ชะอม, กุ้ง, พริกแดง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ซี่โครงหมูผัดตะไคร้",
+    "ingredients": "ซี่โครงหมู, ตะไคร้ซอย, พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดพริกเกลือ",
+    "ingredients": "สะโพกไก่, กระเทียม, พริกขี้หนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูสามชั้นผัดกะปิสตอ",
+    "ingredients": "หมูสามชั้น, สะตอ, กะปิ, พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เป็ดผัดกะเพรา",
+    "ingredients": "เนื้อเป็ดย่าง, ใบกะเพรา, พริกแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดยี่หร่า",
+    "ingredients": "เนื้อวัว, ใบยี่หร่า, พริกแกงเผ็ด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A3%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูสามชั้นผัดพริกเกลือ",
+    "ingredients": "หมูสามชั้น, กระเทียม, พริกสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดขิงเต้าเจี้ยว",
+    "ingredients": "เนื้อไก่, ขิงอ่อน, เห็ดหูหนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ลิ้นวัวผัดกะเพรา",
+    "ingredients": "ลิ้นวัว (ต้มสุก), พริก, กะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กบผัดเผ็ดใบยี่หร่า",
+    "ingredients": "เนื้อกบ, พริกแกงป่า, ใบยี่หร่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%9A%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B9%83%E0%B8%9A%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A3%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูป่าผัดเผ็ด",
+    "ingredients": "เนื้อหมูป่า, พริกแกง, พริกไทยอ่อน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "นกสับผัดเผ็ด",
+    "ingredients": "เนื้อนก (หรือไก่สับละเอียด), เครื่องแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%99%E0%B8%81%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดกะปิใต้",
+    "ingredients": "สะโพกไก่, กะปิแท้, พริกขี้หนูสวน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4%E0%B9%83%E0%B8%95%E0%B9%89.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดพริกขี้หนูสวน",
+    "ingredients": "เนื้อเซอร์ลอยน์, พริกขี้หนูสวน, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B8%AB%E0%B8%99%E0%B8%B9%E0%B8%AA%E0%B8%A7%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูหวาน",
+    "ingredients": "หมูสามชั้น, หอมแดง, ซีอิ๊วดำหวาน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดตะไคร้พริกแห้ง",
+    "ingredients": "ไก่ชิ้น, ตะไคร้, พริกแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปูนิ่มผัดผงกะหรี่",
+    "ingredients": "ปูนิ่ม, ผงกะหรี่, ไข่ไก่, นมข้นจืด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%B9%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งลายเสือผัดพริกเกลือ",
+    "ingredients": "กุ้งลายเสือ, กระเทียม, พริก",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาหมึกผัดกะปิ",
+    "ingredients": "ปลาหมึกสด, กะปิ, หอมแดง, พริกสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลากะพงผัดขึ้นฉ่าย",
+    "ingredients": "เนื้อปลากะพง, ขึ้นฉ่าย, ขิง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งแม่น้ำผัดสายบัว",
+    "ingredients": "กุ้งแม่น้ำ, สายบัว, มันกุ้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%B1%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยแมลงภู่ผัดใบโหระพา",
+    "ingredients": "หอยแมลงภู่, พริกแกง, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%83%E0%B8%9A%E0%B9%82%E0%B8%AB%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาป่นผัดขิง",
+    "ingredients": "ปลาเนื้ออ่อนทอด, ขิงซอย, พริกขี้หนู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%9B%E0%B9%88%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B4%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดซอสไข่เค็ม",
+    "ingredients": "กุ้ง, ไข่แดงเค็ม, เนย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ทะเลผัดฉ่า",
+    "ingredients": "กุ้ง, หมึก, ปลา, กระชาย, พริกไทยอ่อน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาช่อนผัดขึ้นฉ่าย",
+    "ingredients": "เนื้อปลาช่อนทอด, ขึ้นฉ่าย, เต้าเจี้ยว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดหน่อไม้ฝรั่งซอสXO",
+    "ingredients": "กุ้ง, หน่อไม้ฝรั่ง, ซอส XO",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%8B%E0%B8%AD%E0%B8%AAXO.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อปูผัดต้นหอม",
+    "ingredients": "เนื้อปูแกะ, ต้นหอม, ขิง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาหมึกผัดพริกเผาไข่เค็ม",
+    "ingredients": "ปลาหมึก, น้ำพริกเผา, ไข่เค็ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลากะพงผัดเปรี้ยวหวาน",
+    "ingredients": "ปลากะพงทอด, สับปะรด, ผักสามสี",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดเม็ดมะม่วง",
+    "ingredients": "กุ้ง, เม็ดมะม่วง, พริกแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเผ็ดมะเขือยาวหมูสับ",
+    "ingredients": "มะเขือยาว, หมูสับ, พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "วุ้นเส้นผัดทรงเครื่อง",
+    "ingredients": "วุ้นเส้น, กุ้ง, ไข่, ผักรวม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มะเขือเปราะผัดหมูสับ",
+    "ingredients": "มะเขือเปราะ, หมูสับ, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หน่อไม้สดผัดไข่",
+    "ingredients": "หน่อไม้สด, ไข่ไก่, หมูสับ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%AA%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ตับหมูผัดพริกแห้งโหระพา",
+    "ingredients": "ตับหมู, พริกแห้ง, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเห็ด 3 อย่าง",
+    "ingredients": "เห็ดนางฟ้า, เห็ดหูหนู, เห็ดเข็มทอง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%203%20%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ชะอมผัดไข่หมูสับ",
+    "ingredients": "ชะอม, ไข่ไก่, หมูสับ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูยอผัดน้ำพริกเผา",
+    "ingredients": "หมูยอ, น้ำพริกเผา, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ดอกแคผัดกุ้ง",
+    "ingredients": "ดอกแค, กุ้ง, เต้าเจี้ยว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%84%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดพริกแกงใต้หน่อไม้เหลือง",
+    "ingredients": "หมูชิ้น, หน่อไม้เหลือง, พริกแกงใต้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%83%E0%B8%95%E0%B9%89%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ยอดมะระผัดไข่",
+    "ingredients": "ยอดมะระหวาน, ไข่ไก่, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A3%E0%B8%B0%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เต้าหู้เหลืองผัดคื่นฉ่าย",
+    "ingredients": "เต้าหู้เหลือง, คื่นฉ่าย, หมูสับ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%84%E0%B8%B7%E0%B9%88%E0%B8%99%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเผ็ดลูกชิ้นปลากราย",
+    "ingredients": "ลูกชิ้นปลากราย, กระชาย, พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ถั่วลันเตาผัดกุ้ง",
+    "ingredients": "ถั่วลันเตา, กุ้ง, แครอท",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%A5%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%95%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูสับผัดหนำเลี้ยบ",
+    "ingredients": "หมูสับ, หนำเลี้ยบ, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดกะเพราคลุก",
+    "ingredients": "ข้าวสวย, หมูสับ, ใบกะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%84%E0%B8%A5%E0%B8%B8%E0%B8%81.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "สปาเก็ตตี้ผัดขี้เมา",
+    "ingredients": "เส้นสปาเก็ตตี้, ทะเลรวม, สมุนไพร",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AA%E0%B8%9B%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มาม่าผัดต้มยำแห้ง",
+    "ingredients": "มาม่า, กุ้ง, เครื่องต้มยำ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ก๋วยเตี๋ยวผัดงอแง",
+    "ingredients": "เส้นใหญ่, กุนเชียง, กุ้งแห้ง, เต้าหู้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B9%8B%E0%B8%A7%E0%B8%A2%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%87%E0%B8%AD%E0%B9%81%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดรถไฟ",
+    "ingredients": "ข้าวสวย, หมูชิ้น, คะน้า, ซอสมะเขือเทศ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ซี่โครงหมูผัดซอสแดง",
+    "ingredients": "ซี่โครงอ่อน, ซอสมะเขือเทศ, เหล้าจีน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%81%E0%B8%94%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ขาหมูผัดพริกแกงใต้",
+    "ingredients": "คางหมู/ขาหมู, พริกแกงใต้, กะปิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%83%E0%B8%95%E0%B9%89.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อตุ๋นผัดขี้เมา",
+    "ingredients": "เนื้อสามชั้นตุ๋น, เครื่องเทศผัดฉ่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%95%E0%B8%B8%E0%B9%8B%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูสามชั้นผัดหนำเลี้ยบแห้ง",
+    "ingredients": "หมูสามชั้นสับ, หนำเลี้ยบ, กระเทียมโทน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%9A%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่คั่วกลิ้งตำมือ",
+    "ingredients": "สะโพกไก่, เครื่องแกงคั่วกลิ้ง, สะตอ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%95%E0%B8%B3%E0%B8%A1%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ลิ้นวัวผัดพริกไทยดำ",
+    "ingredients": "ลิ้นวัว, พริกไทยดำเม็ด, หอมใหญ่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%94%E0%B8%B3.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูโสร่งผัดกะปิ",
+    "ingredients": "หมูสับ, เส้นหมี่, กะปิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%82%E0%B8%AA%E0%B8%A3%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%9B%E0%B8%B4.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อเค็มผัดกะทิ",
+    "ingredients": "เนื้อแดดเดียว, กะทิสด, หอมแดง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดซอสส้มตำรับจีน",
+    "ingredients": "ไก่ติดหนัง, น้ำส้มคั้นสด, ขิง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%95%E0%B8%B3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%88%E0%B8%B5%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เอ็นแก้วผัดกะเพรา",
+    "ingredients": "เอ็นแก้ววัว, พริกแห้ง, กะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่คั่วพริกหอมหม่าล่า",
+    "ingredients": "สะโพกไก่, พริกแห้งเยอะมาก, ฮวาเจียว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%A5%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูสามชั้นผัดพริกขิง",
+    "ingredients": "หมูสามชั้น, พริกแกงขิง, ถั่วฝักยาว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%B4%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เป็ดพะโล้ผัดขึ้นฉ่าย",
+    "ingredients": "เนื้อเป็ดพะโล้, ขึ้นฉ่าย, กระเทียม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%94%E0%B8%9E%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อเซอร์ลอยน์ผัดเนยกระเทียม",
+    "ingredients": "เนื้อวัวเกรดดี, กระเทียมโทน, เนยสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A5%E0%B8%AD%E0%B8%A2%E0%B8%99%E0%B9%8C%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%99%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ซี่โครงหมูผัดตะไคร้กรอบ",
+    "ingredients": "ซี่โครงอ่อน, ตะไคร้ซอยละเอียด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งมังกรผัดพริกเกลือ",
+    "ingredients": "กุ้งมังกร, กระเทียมเจียว, พริก",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปูม้าผัดต้นหอมขิงสด",
+    "ingredients": "ปูม้าสด, ขิงแก่, ต้นหอม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%B9%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B8%82%E0%B8%B4%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยเป๋าฮื้อผัดน้ำมันหอย",
+    "ingredients": "หอยเป๋าฮื้อ, บล็อกโคลี, ซอสXO",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AE%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลากะพงผัดฉ่ากระทะร้อน",
+    "ingredients": "ปลากะพงทอด, เครื่องผัดฉ่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B0%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งแม่น้ำผัดซอสมะขามโบราณ",
+    "ingredients": "กุ้งแม่น้ำ, น้ำมะขาม, หอมแดง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B0%E0%B8%82%E0%B8%B2%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาหมึกยัดไส้ผัดพริกเผา",
+    "ingredients": "ปลาหมึก, หมูสับ, น้ำพริกเผา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%A2%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาทับทิมผัด 3 รส",
+    "ingredients": "ปลาทับทิม, พริกแห้ง, สับปะรด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%B1%E0%B8%9A%E0%B8%97%E0%B8%B4%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%203%20%E0%B8%A3%E0%B8%AA.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งลายเสือผัดซอสเนยกระเทียม",
+    "ingredients": "กุ้งลายเสือ, เนยแท้, พาร์สลีย์",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%99%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยเชลล์ผัดหน่อไม้ฝรั่งซอสเป๋าฮื้อ",
+    "ingredients": "หอยเชลล์, หน่อไม้ฝรั่ง, ซอสเป๋าฮื้อ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%A5%E0%B8%A5%E0%B9%8C%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AE%E0%B8%B7%E0%B9%89%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลาคังผัดฉ่า",
+    "ingredients": "เนื้อปลาคัง, คั้นส้ม, กระชาย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%84%E0%B8%B1%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปูนิ่มผัดพริกไทยดำ",
+    "ingredients": "ปูนิ่ม, พริกไทยดำเม็ด, พริกหวาน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%B9%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%94%E0%B8%B3.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ปลากะพงผัดซอสใบกะเพรากรอบ",
+    "ingredients": "ปลากะพง, ใบกะเพราทอด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ทะเลผัดผงกะหรี่",
+    "ingredients": "ทะเลรวม, ไข่ไก่, น้ำมันพริกเผา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A0%E0%B8%B1%E0%B8%95%E0%B8%95%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กุ้งผัดข้าวโพดอ่อนซอสไข่เค็ม",
+    "ingredients": "กุ้ง, ข้าวโพดอ่อน, ไข่แดงเค็ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%82%E0%B8%9E%E0%B8%94%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยลายผัดน้ำพริกเผาโหระพาท่วม",
+    "ingredients": "หอยลาย, น้ำพริกเผา, ใบโหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B9%82%E0%B8%AB%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%97%E0%B9%88%E0%B8%A7%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดจับฉ่ายแห้ง",
+    "ingredients": "ผักรวม 5 ชนิด, หมูสามชั้น, ฟองเต้าหู้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มะเขือยาวผัดปลาเค็มหมูสับ",
+    "ingredients": "มะเขือยาว, ปลาอินทรีย์เค็ม, หมูสับ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเผ็ดมะเขือเปราะกระดูกอ่อน",
+    "ingredients": "กระดูกอ่อนหมู, มะเขือเปราะ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B9%E0%B8%81%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดปูสูตรคั่วกระทะ",
+    "ingredients": "ข้าวสวย, เนื้อปูแกะ, ไข่ไก่",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9B%E0%B8%B9%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B0.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ราดหน้าเส้นใหญ่ผัดไข่",
+    "ingredients": "เส้นใหญ่, หมูหมัก, คะน้าฮ่องกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "โกยซีหมี่",
+    "ingredients": "บะหมี่เหลืองทอด, ไก่เส้น, หน่อไม้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%82%E0%B8%81%E0%B8%A2%E0%B8%8B%E0%B8%B5%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "วุ้นเส้นผัดชะอมกุ้งสด",
+    "ingredients": "วุ้นเส้น, ชะอม, กุ้ง, พริกตำ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดไทยโบราณ (เคี่ยวน้ำซอส)",
+    "ingredients": "เส้นจันท์, น้ำมะขาม, กุ้งแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%20(%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%8B%E0%B8%AD%E0%B8%AA).jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมี่ซั่วผัดมงคล",
+    "ingredients": "หมี่ซั่ว, เห็ดหอม, ผักรวม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%8B%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%87%E0%B8%84%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดหนำเลี้ยบหมูสับ",
+    "ingredients": "ข้าวสวย, หนำเลี้ยบ, เม็ดมะม่วง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "สปาเก็ตตี้ผัดพริกแห้งเบคอน",
+    "ingredients": "เส้นสปาเก็ตตี้, เบคอน, พริกแห้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AA%E0%B8%9B%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%9A%E0%B8%84%E0%B8%AD%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดหมี่โคราช",
+    "ingredients": "เส้นหมี่ตะคุ, เนื้อหมู, น้ำปรุง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%8A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หน่อไม้ฝรั่งผัดเห็ดเป๋าฮื้อ",
+    "ingredients": "หน่อไม้ฝรั่ง, เห็ดเป๋าฮื้อสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B9%8B%E0%B8%B2%E0%B8%AE%E0%B8%B7%E0%B9%89%E0%B8%AD.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดกะหล่ำปลีทอดน้ำปลาเบคอน",
+    "ingredients": "กะหล่ำปลี, เบคอนกรอบ, น้ำปลา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%9A%E0%B8%84%E0%B8%AD%E0%B8%99.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "พริกหยวกสอดไส้หมูผัดซอส",
+    "ingredients": "พริกหยวก, หมูสับ, ซอสปรุงรส",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%AB%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%AA%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเผ็ดหมูป่าใบยี่หร่า",
+    "ingredients": "เนื้อหมูป่า, ใบยี่หร่า, พริกแกงป่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%9A%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A3%E0%B9%88%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไข่ระเบิด (ไข่ดาวผัดทรงเครื่อง)",
+    "ingredients": "ไข่ไก่, หมูสับ, ผักสามสี",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%94%20(%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87).jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดพริกแกงปลาดุกทอดกรอบ",
+    "ingredients": "ปลาดุก, พริกแกง, กระชาย",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%B8%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดกะเพรากรอบ",
+    "ingredients": "เนื้อวัวสไลด์, ใบกะเพราทอด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ราดหน้าทะเลเส้นหมี่กรอบ",
+    "ingredients": "เส้นหมี่ขาว, ทะเลรวม, คะน้า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ฉู่ฉี่กุ้งสด",
+    "ingredients": "กุ้งขาว, พริกแกงเผ็ด, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%89%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มยำกุ้งน้ำใส",
+    "ingredients": "กุ้งสด, ข่า, ตะไคร้, มะนาว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%89%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "พะแนงปลาหมึก",
+    "ingredients": "ปลาหมึกวง, พริกแกงพะแนง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%9E%E0%B8%B0%E0%B9%81%E0%B8%99%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วสับปะรดหอย",
+    "ingredients": "หอยแมลงภู่, สับปะรด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%B0%E0%B8%A3%E0%B8%94%E0%B8%AB%E0%B8%AD%E0%B8%A2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มกุ้งผักรวม",
+    "ingredients": "กุ้ง, ผักกาดขาว, พริกแกงส้ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเลียงกุ้งสด",
+    "ingredients": "กุ้ง, บวบ, ใบแมงลัก",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มข่าปลาหมึก",
+    "ingredients": "ปลาหมึก, กะทิ, ข่าอ่อน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่าปลาอินทรี",
+    "ingredients": "ปลาอินทรี, พริกแกงป่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานลูกชิ้นปลา",
+    "ingredients": "ลูกชิ้นปลา, พริกแกงเขียวหวาน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "โป๊ะแตกทะเล",
+    "ingredients": "รวมมิตรทะเล, ใบกะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%82%E0%B8%9B%E0%B9%8A%E0%B8%B0%E0%B9%81%E0%B8%95%E0%B8%81%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%A3%E0%B8%A7%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วใบชะพลูปู",
+    "ingredients": "เนื้อปูแกะ, ใบชะพลู",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%83%E0%B8%9A%E0%B8%8A%E0%B8%B0%E0%B8%9E%E0%B8%A5%E0%B8%B9%E0%B8%9B%E0%B8%B9.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะทิสายบัวกุ้ง",
+    "ingredients": "สายบัว, กุ้ง, มะขามเปียก",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงอ่อมปลาหมึก",
+    "ingredients": "ปลาหมึก, ผักชีลาว, ข้าวคั่ว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงรัญจวนกุ้ง",
+    "ingredients": "กุ้ง, น้ำพริกกะปิ, โหระพา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%A3%E0%B8%B1%E0%B8%8D%E0%B8%88%E0%B8%A7%E0%B8%99%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มไข่ปลา",
+    "ingredients": "ไข่ปลา, หน่อไม้ดอง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มส้มปลากระพง",
+    "ingredients": "เนื้อปลา, ขิงซอย, หอมแดง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงจืดปลาหมึกยัดไส้",
+    "ingredients": "ปลาหมึก, หมูสับ, วุ้นเส้น",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%A2%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเทโพปลาเค็ม",
+    "ingredients": "ปลาเค็มริวกิว, ผักบุ้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%82%E0%B8%9E%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะทิลูกชิ้นปลาหน่อไม้",
+    "ingredients": "ลูกชิ้นปลา, หน่อไม้เหลือง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มยำกุ้งน้ำข้น",
+    "ingredients": "กุ้ง, นมข้นจืด, น้ำพริกเผา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%82%E0%B9%89%E0%B8%99.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วปูม้าหน่อไม้ดอง",
+    "ingredients": "ปูม้าสด, หน่อไม้ดอง, พริกแกงใต้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9B%E0%B8%B9%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B8%AD%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเหลืองปลากระพงยอดมะพร้าว",
+    "ingredients": "ปลากระพง, ยอดมะพร้าว, พริกแกงเหลือง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ห่อหมกทะเลนึ่ง",
+    "ingredients": "รวมมิตรทะเล, กะทิ, ไข่ไก่, พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%AB%E0%B9%88%E0%B8%AD%E0%B8%AB%E0%B8%A1%E0%B8%81%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานปลากรายแท้ (ขูดเอง)",
+    "ingredients": "เนื้อปลากราย, พริกแกงเขียวหวาน, มะเขือ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%97%E0%B9%89%20(%E0%B8%82%E0%B8%B9%E0%B8%94%E0%B9%80%E0%B8%AD%E0%B8%87).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดเป็ดย่างทะเล",
+    "ingredients": "กุ้ง, หมึก, ผลไม้ (สับปะรด/มะเขือเทศ), พริกแกง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%94%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วหอยขม (แบบแกะสด)",
+    "ingredients": "หอยขม, ใบชะพลู, กะทิสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%82%E0%B8%A1%20(%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%81%E0%B8%B0%E0%B8%AA%E0%B8%94).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มแป๊ะซะปลาช่อนทะเล",
+    "ingredients": "ปลาช่อนทะเล/ปลากระพงทอด, ผักกระเฉด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%81%E0%B8%9B%E0%B9%8A%E0%B8%B0%E0%B8%8B%E0%B8%B0%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกระหรี่ปลาหมึกยัดไส้",
+    "ingredients": "ปลาหมึก, หมูสับ, ผงกระหรี่, มันฝรั่ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%A2%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเทโพปลาริวกิว",
+    "ingredients": "ปลาริวกิวแห้ง, ผักบุ้งไทย, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%82%E0%B8%9E%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B4%E0%B8%A7.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มไข่ปลาริวกิว (สูตรเข้มข้น)",
+    "ingredients": "ไข่ปลาริวกิว, ยอดมะพร้าว, น้ำแกงส้ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%A7%E0%B8%81%E0%B8%B4%E0%B8%A7%20(%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วปูทะเลใบชะพลู (ปูทั้งตัว)",
+    "ingredients": "ปูทะเล (ปูดำ), ใบชะพลู, กะทิสด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9B%E0%B8%B9%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B9%83%E0%B8%9A%E0%B8%8A%E0%B8%B0%E0%B8%9E%E0%B8%A5%E0%B8%B9%20(%E0%B8%9B%E0%B8%B9%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B8%A7).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงนพเก้าทะเล",
+    "ingredients": "รวมมิตรทะเล, ผัก 9 อย่าง, หน่อไม้, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%99%E0%B8%9E%E0%B9%80%E0%B8%81%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงซ่อม (แกงโบราณ)",
+    "ingredients": "ปลากระพงทอด, ระกำ, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1%20(%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่าป่าปลาเห็ดโคน (พริกแกงตำเอง)",
+    "ingredients": "ปลาเห็ดโคน, ผักป่า, พริกแกงป่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B9%82%E0%B8%84%E0%B8%99%20(%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%95%E0%B8%B3%E0%B9%80%E0%B8%AD%E0%B8%87).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะทิหัวปลีกุ้งสด",
+    "ingredients": "หัวปลี, กุ้งสด, กะทิ, พริกแกงคั่ว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มหัวปลาหม้อไฟ",
+    "ingredients": "หัวปลากระพงชิ้นใหญ่, ผักกาดดอง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงระแวงกุ้งใหญ่",
+    "ingredients": "กุ้งแม่น้ำ/กุ้งลายเสือ, พริกแกงเขียวหวานข้น",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B9%81%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงหมูเทโพปลาเค็มโบราณ",
+    "ingredients": "ปลาอินทรีเค็ม, หมูสามชั้น, ผักบุ้ง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%97%E0%B9%82%E0%B8%9E%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงบวนทะเล",
+    "ingredients": "เครื่องในปลา/พุงปลา, ใบมะกรูด, ตะไคร้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9A%E0%B8%A7%E0%B8%99%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงจืดบะช่อกุ้งวุ้นเส้นลูกรอก",
+    "ingredients": "กุ้งสับ, ไส้อ่อน (ทำลูกรอกเอง), วุ้นเส้น",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B8%9A%E0%B8%B0%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มชะอมไข่กุ้งสด",
+    "ingredients": "กุ้ง, ไข่ไก่, ชะอม, พริกแกงส้ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะทิหน่อไม้ดองลูกชิ้นปลา",
+    "ingredients": "ลูกชิ้นปลา, หน่อไม้ดอง, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B8%AD%E0%B8%87%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดปลาหมึกยัดไส้",
+    "ingredients": "ปลาหมึก, หมูสับ, พริกแกงเผ็ด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%A2%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานปลาอินทรี",
+    "ingredients": "ปลาอินทรีชิ้น, พริกแกงเขียวหวาน",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วปูม้าใบกะเพรา",
+    "ingredients": "ปูม้า, กะทิ, ใบกะเพรา",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9B%E0%B8%B9%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B9%83%E0%B8%9A%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มส้มปลากะบอก",
+    "ingredients": "ปลากะบอก, ขิงซอย, ตะไคร้",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9A%E0%B8%AD%E0%B8%81.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มปลากะพงผักกระเฉด",
+    "ingredients": "ปลากะพง, ผักกระเฉด, พริกแกงส้ม",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%89%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่ารวมมิตรทะเลหน่อไม้สด",
+    "ingredients": "รวมมิตรทะเล, หน่อไม้สด, ผักป่า",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะทิหอยลายใบชะพลู",
+    "ingredients": "หอยลาย, ใบชะพลู, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%9A%E0%B8%8A%E0%B8%B0%E0%B8%9E%E0%B8%A5%E0%B8%B9.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มทางโหนดกุ้งสด",
+    "ingredients": "กุ้ง, ทางโหนด (หรือยอดมะพร้าว)",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%AB%E0%B8%99%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดลูกชิ้นปลาหน่อไม้เหลือง",
+    "ingredients": "ลูกชิ้นปลา, หน่อไม้เหลือง, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ฉู่ฉี่ปลากะพง (แบบชิ้นทอด)",
+    "ingredients": "เนื้อปลากะพง, พริกแกงเผ็ด",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%89%E0%B8%B9%E0%B9%88%E0%B8%89%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%20(%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94).jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงอ่อมปลาคัง",
+    "ingredients": "ปลาคัง, ผักชีลาว, ข้าวคั่ว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%84%E0%B8%B1%E0%B8%87.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วฟักทองกุ้งสด",
+    "ingredients": "กุ้งสด, ฟักทอง, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9F%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "ต้มยำหัวปลาหม้อไฟ",
+    "ingredients": "หัวปลากะพง, เครื่องต้มยำ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเหลืองปลาไหลทะเล",
+    "ingredients": "ปลาไหลทะเล, พริกแกงเหลือง",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงจืดไข่น้ำซีฟู้ด",
+    "ingredients": "ไข่ไก่, กุ้ง, หมึก, ผักกาดขาว",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%8B%E0%B8%B5%E0%B8%9F%E0%B8%B9%E0%B9%89%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มเปลือกแตงโมกุ้งสด",
+    "ingredients": "กุ้งสด, เปลือกแตงโม (ส่วนขาว)",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%95%E0%B8%87%E0%B9%82%E0%B8%A1%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วหอยแมลงภู่ใบกะเพรา",
+    "ingredients": "หอยแมลงภู่, พริกแกงคั่ว, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B9%88%E0%B9%83%E0%B8%9A%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2.jpg"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกุ้งแม่น้ำซอสมะขาม (แบบแกง)",
+    "ingredients": "กุ้งแม่น้ำ, น้ำมะขามเปียก, กะทิ",
+    "Image_url": "https://raw.githubusercontent.com/nattapongd-coder/my-images_se/refs/heads/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B8%A1%E0%B8%B0%E0%B8%82%E0%B8%B2%E0%B8%A1%20(%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B9%81%E0%B8%81%E0%B8%87).jpg"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวหมูสับ",
+    "ingredients": "ไข่ไก่, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูสามชั้นทอดน้ำปลา",
+    "ingredients": "หมูสามชั้นสไลด์, น้ำปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปีกไก่ทอดเกลือ",
+    "ingredients": "ปีกกลางไก่, เกลือ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เห็ดเข็มทองชุบแป้งทอด",
+    "ingredients": "เห็ดเข็มทอง, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B9%80%E0%B8%82%E0%B9%87%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ทอดมันปลากระป๋อง",
+    "ingredients": "ปลากระป๋อง, พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B9%8B%E0%B8%AD%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่ลูกเขย (ด่วน)",
+    "ingredients": "ไข่ต้ม, หอมเจียว, ซอสมะขาม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%80%E0%B8%82%E0%B8%A2%20(%E0%B8%94%E0%B9%88%E0%B8%A7%E0%B8%99).jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "กุนเชียงทอดน้ำ",
+    "ingredients": "กุนเชียง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%81%E0%B8%B8%E0%B8%99%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เต้าหู้ทอด",
+    "ingredients": "เต้าหู้แข็ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "แหนมเอ็นข้อไก่ทอด",
+    "ingredients": "แหนมเอ็นข้อไก่, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B8%A1%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เกี๊ยวห่อไส้กรอก",
+    "ingredients": "แผ่นเกี๊ยว, ไส้กรอก",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาทูทอดขมิ้น",
+    "ingredients": "ปลาทูสด, ขมิ้น, กระเทียม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%82%E0%B8%A1%E0%B8%B4%E0%B9%89%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูยอทอด",
+    "ingredients": "หมูยอ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B8%AD%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไส้กรอกอีสานทอด",
+    "ingredients": "ไส้กรอกอีสาน",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94.webp?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่ดาวกรอบ",
+    "ingredients": "ไข่เป็ด/ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ทอดมันข้าวโพด",
+    "ingredients": "ข้าวโพด, แป้ง, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%82%E0%B8%9E%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "นักเก็ตไก่",
+    "ingredients": "นักเก็ตแช่แข็ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%E0%B9%84%E0%B8%81%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เฟรนช์ฟรายส์",
+    "ingredients": "มันฝรั่งแท่งแช่แข็ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%9F%E0%B8%A3%E0%B8%99%E0%B8%8A%E0%B9%8C%E0%B8%9F%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B9%8C.webp?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เกี๊ยวไข่นกกระทา",
+    "ingredients": "แผ่นเกี๊ยว, ไข่นกกระทา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%A7%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%99%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปูอัดชุบแป้งทอด",
+    "ingredients": "ปูอัด, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9B%E0%B8%B9%E0%B8%AD%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ลูกชิ้นปลาระเบิด",
+    "ingredients": "ลูกชิ้นปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูแดดเดียว (ด่วน)",
+    "ingredients": "สันคอหมู, ซอสปรุงรส",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%81%E0%B8%94%E0%B8%94%E0%B9%80%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B8%A7%20(%E0%B8%94%E0%B9%88%E0%B8%A7%E0%B8%99).jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เนื้อเค็มทอด",
+    "ingredients": "เนื้อวัวแดดเดียว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาแผ่นทอด",
+    "ingredients": "ปลาแผ่น/ฮือก้วย",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%81%E0%B8%9C%E0%B9%88%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หนังไก่ทอด",
+    "ingredients": "หนังไก่, เกลือ, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "กุ้งชุบแป้งทอด",
+    "ingredients": "กุ้งสด, เกล็ดขนมปัง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวแหนม",
+    "ingredients": "ไข่ไก่, แหนม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวโหระพา",
+    "ingredients": "ไข่ไก่, ใบโหระพา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B9%82%E0%B8%AB%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูสามชั้นชุบแป้ง",
+    "ingredients": "หมูสามชั้น, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ขนมปังหน้าหมู",
+    "ingredients": "ขนมปัง, หมูสับไข่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%9B%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ผักบุ้งชุบแป้งทอด",
+    "ingredients": "ผักบุ้ง, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.webp?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กะเพราหมูสับ",
+    "ingredients": "หมูสับ, ใบกะเพรา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดผักบุ้งไฟแดง",
+    "ingredients": "ผักบุ้ง, เต้าเจี้ยว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B9%81%E0%B8%94%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดไข่",
+    "ingredients": "ข้าวสวย, ไข่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดเม็ดมะม่วง",
+    "ingredients": "อกไก่, เม็ดมะม่วง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูทอดกระเทียม",
+    "ingredients": "หมูชิ้น, กระเทียม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "คะน้าหมูกรอบ",
+    "ingredients": "คะน้า, หมูกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%84%E0%B8%B0%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กะหล่ำปลีน้ำปลา",
+    "ingredients": "กะหล่ำปลี, น้ำปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "มาม่าผัดขี้เมา",
+    "ingredients": "เส้นมาม่า, เครื่องขี้เมา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดกิมจิ",
+    "ingredients": "หมูสไลด์, กิมจิ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%88%E0%B8%B4.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดพริกแกงถั่ว",
+    "ingredients": "ถั่วฝักยาว, หมู, พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดขิง",
+    "ingredients": "ไก่ชิ้น, ขิงซอย, เห็ดหูหนู",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%82%E0%B8%B4%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เนื้อผัดน้ำมันหอย",
+    "ingredients": "เนื้อวัวสไลด์, น้ำมันหอย",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%A2.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดเปรี้ยวหวาน",
+    "ingredients": "หมู/ไก่, สับปะรด, แตงกวา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดวุ้นเส้นใส่ไข่",
+    "ingredients": "วุ้นเส้น, ไข่, กะหล่ำปลี",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%AA%E0%B9%88%E0%B9%84%E0%B8%82%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดถั่วงอกเต้าหู้",
+    "ingredients": "ถั่วงอก, เต้าหู้, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "กะหล่ำดอกผัดกุ้ง",
+    "ingredients": "กะหล่ำดอก, กุ้ง",
+    "Image_url": "https://raw.githubusercontent.com/Vee12325/image_SE/refs/heads/main/%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%B3%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดฉ่าทะเล",
+    "ingredients": "กุ้ง/หมึก, เครื่องผัดฉ่า",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดต้มยำแห้ง",
+    "ingredients": "ข้าวสวย, เครื่องต้มยำ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B9%81%E0%B8%AB%E0%B9%89%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "สปาเก็ตตี้ขี้เมา",
+    "ingredients": "เส้น (ต้มแล้ว), เครื่องขี้เมา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AA%E0%B8%9B%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95%E0%B8%95%E0%B8%B5%E0%B9%89%E0%B8%82%E0%B8%B5%E0%B9%89%E0%B9%80%E0%B8%A1%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดมะเขือยาว",
+    "ingredients": "มะเขือยาว, หมูสับ, โหระพา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%A7.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "บรอกโคลีผัดกุ้ง",
+    "ingredients": "บรอกโคลี, กุ้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดซีอิ๊ว",
+    "ingredients": "เส้นใหญ่, ไข่, คะน้า",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B5%E0%B8%AD%E0%B8%B4%E0%B9%8A%E0%B8%A7.jpeg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "คั่วกลิ้งหมูสับ",
+    "ingredients": "หมูสับ, พริกแกงคั่ว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ไก่ผัดตะไคร้",
+    "ingredients": "ไก่สับ, ตะไคร้ซอย",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B8%B0%E0%B9%84%E0%B8%84%E0%B8%A3%E0%B9%89.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หมูผัดพริกหยวก",
+    "ingredients": "หมูชิ้น, พริกหยวก, หอมใหญ่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%AB%E0%B8%A2%E0%B8%A7%E0%B8%81.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ผัดผักรวมมิตร",
+    "ingredients": "ผักต่างๆ ตามชอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "เต้าหู้ทรงเครื่อง",
+    "ingredients": "เต้าหู้ไข่, หมูสับ, แครอท",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "ข้าวผัดแหนม",
+    "ingredients": "ข้าวสวย, แหนม, ไข่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%AB%E0%B8%99%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หน่อไม้ฝรั่งผัดกุ้ง",
+    "ingredients": "หน่อไม้ฝรั่ง, กุ้งสด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%A3%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ผัด",
+    "name": "หอยลายผัดพริกเผา",
+    "ingredients": "หอยลาย, น้ำพริกเผา, โหระพา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%80%E0%B8%9C%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำกุ้งน้ำใส",
+    "ingredients": "กุ้ง, เครื่องต้มยำ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%AA.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มข่าไก่",
+    "ingredients": "ไก่, กะทิ, ข่า",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%81%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มเลือดหมู",
+    "ingredients": "เลือดหมู, หมูสับ, ผัก",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มแซ่บหมูสับ",
+    "ingredients": "หมูสับ, เครื่องต้มแซ่บ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B9%81%E0%B8%8B%E0%B9%88%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "แกงจืดไข่น้ำ",
+    "ingredients": "ไข่เจียว, ผักกาดขาว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "พะแนงหมูชิ้น",
+    "ingredients": "หมูสไลด์, พริกแกงพะแนง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%9E%E0%B8%B0%E0%B9%81%E0%B8%99%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำปลากระป๋อง",
+    "ingredients": "ปลากระป๋อง, เครื่องต้มยำ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B9%8B%E0%B8%AD%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มโคล้งปลาย่าง",
+    "ingredients": "ปลาย่าง/ปลาอบ, เครื่องต้มโคล้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B9%89%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มส้มปลากระบอก",
+    "ingredients": "ปลากระบอก, ขิง, กะปิ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%AD%E0%B8%81.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปมิโซะ",
+    "ingredients": "เต้าหู้, สาหร่าย, มิโซะ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B8%A1%E0%B8%B4%E0%B9%82%E0%B8%8B%E0%B8%B0.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มกะทิสายบัว",
+    "ingredients": "สายบัว, ปลาทู, กะทิ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%81%E0%B8%B0%E0%B8%97%E0%B8%B4%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9A%E0%B8%B1%E0%B8%A7.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มยำไก่น้ำข้น",
+    "ingredients": "ไก่, นมข้นจืด, พริกเผา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%82%E0%B9%89%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ต้มจับฉ่าย (ผัด)",
+    "ingredients": "ผักรวม, หมูสามชั้น",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%89%E0%B9%88%E0%B8%B2%E0%B8%A2%20(%E0%B8%9C%E0%B8%B1%E0%B8%94).jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "สุกี้น้ำ",
+    "ingredients": "วุ้นเส้น, ผัก, เนื้อ, น้ำจิ้ม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%AA%E0%B8%B8%E0%B8%81%E0%B8%B5%E0%B9%89%E0%B8%99%E0%B9%89%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ข้าวต้มปลา",
+    "ingredients": "ข้าวสวย, เนื้อปลาลวก",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ข้าวต้มหมูสับ",
+    "ingredients": "ข้าวสวย, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "เกี๊ยวน้ำ",
+    "ingredients": "เกี๊ยวหมู (สำเร็จ/ห่อเอง)",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "มาม่าต้มยำ",
+    "ingredients": "เส้นมาม่า, หมูสับ, ไข่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ต้ม",
+    "name": "ซุปมักกะโรนี",
+    "ingredients": "มักกะโรนี (ต้มแล้ว), ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B8%A1%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%99%E0%B8%B5.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงจืดสาหร่าย",
+    "ingredients": "หมูสับ, สาหร่ายแผ่น",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B8%AA%E0%B8%B2%E0%B8%AB%E0%B8%A3%E0%B9%88%E0%B8%B2%E0%B8%A2.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงป่าไก่สับ",
+    "ingredients": "ไก่สับ, พริกแกงป่า, ผัก",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%9B%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงส้มชะอมไข่",
+    "ingredients": "ไข่ชะอม, พริกแกงส้ม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AA%E0%B9%89%E0%B8%A1%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1%E0%B9%84%E0%B8%82%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเลียงกุ้งสด",
+    "ingredients": "กุ้ง, เครื่องแกงเลียง, ผัก",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%AA%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเผ็ดหมูย่าง",
+    "ingredients": "หมูย่าง (สำเร็จ), กะทิ, พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงคั่วหอยขม",
+    "ingredients": "หอยขม (แกะแล้ว), พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B8%82%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงจืดเต้าหู้หมู",
+    "ingredients": "เต้าหู้ไข่, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%88%E0%B8%B7%E0%B8%94%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%AB%E0%B8%A1%E0%B8%B9.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเขียวหวานไก่",
+    "ingredients": "ไก่ชิ้น, พริกแกงเขียว, กะทิ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%81%E0%B9%88.jpeg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงกะหรี่ไก่",
+    "ingredients": "อกไก่, พริกแกงกะหรี่, มันฝรั่ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%81%E0%B8%B0%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%81%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงเทโพ",
+    "ingredients": "หมูสามชั้น, ผักบุ้ง, พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%82%E0%B8%9E.jpg?raw=true"
+  },
+  {
+    "Category": "แกง",
+    "name": "แกงไตปลา",
+    "ingredients": "น้ำแกงไตปลาขวด, ปลาทูย่าง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/%E0%B9%81%E0%B8%81%E0%B8%87%E0%B9%84%E0%B8%95%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูกระเทียมพริกไทย",
+    "ingredients": "สันคอหมู, กระเทียม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ซี่โครงหมูทอดเหล้าแดง",
+    "ingredients": "ซี่โครงหมู, ซอสแดง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%94%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ตับหมูทอดกระเทียม",
+    "ingredients": "ตับหมู, กระเทียม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%95%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูสามชั้นคั่วเกลือ",
+    "ingredients": "หมูสามชั้น, เกลือ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ลาบทอด",
+    "ingredients": "หมูสับ, เครื่องลาบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูสับนึ่งปลาเค็มทอด",
+    "ingredients": "หมูสับ, ปลาเค็ม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูทอดงาขาว",
+    "ingredients": "สันนอกหมู, งาขาว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%87%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไส้อ่อนทอดกระเทียม",
+    "ingredients": "ไส้อ่อน, กระเทียม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูเด้งทอดกรอบ",
+    "ingredients": "หมูเด้ง, แป้งกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%80%E0%B8%94%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไก่ทอดหาดใหญ่",
+    "ingredients": "สะโพกไก่, หอมเจียว",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไก่ป๊อป",
+    "ingredients": "อกไก่, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%9B%E0%B9%8A%E0%B8%AD%E0%B8%9B.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เอ็นข้อไก่ทอด",
+    "ingredients": "เอ็นข้อไก่, ใบมะกรูด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปีกไก่ทอดน้ำปลา",
+    "ingredients": "ปีกกลางไก่, น้ำปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หนังไก่ทอดต้มยำ",
+    "ingredients": "หนังไก่, ผงต้มยำ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไก่ทอดซอสเกาหลี",
+    "ingredients": "ปีกไก่, ซอสโคชูจัง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไก่จ๊อทอด",
+    "ingredients": "ไก่จ๊อสำเร็จรูป",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%88%E0%B9%8A%E0%B8%AD%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "อกไก่ชุบเกล็ดขนมปัง",
+    "ingredients": "อกไก่, เกล็ดขนมปัง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AD%E0%B8%81%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B9%87%E0%B8%94%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%9B%E0%B8%B1%E0%B8%87.jpeg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "โครงไก่ทอด",
+    "ingredients": "โครงไก่สับ, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หัวใจไก่ทอด",
+    "ingredients": "หัวใจไก่, ซอสปรุงรส",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88%E0%B9%84%E0%B8%81%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลากะพงทอดน้ำปลา",
+    "ingredients": "ปลากะพง, น้ำปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "กุ้งกระเทียมโทนทอด",
+    "ingredients": "กุ้งขาว, กระเทียมโทน",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B9%82%E0%B8%97%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาหมึกชุบแป้งทอด",
+    "ingredients": "ปลาหมึกวง, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หนวดปลาหมึกทอด",
+    "ingredients": "หนวดหมึก, แป้งบาง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%99%E0%B8%A7%E0%B8%94%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B6%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาไข่ทอด",
+    "ingredients": "ปลาไข่, แป้งทอดกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "กุ้งฝอยทอดแพ",
+    "ingredients": "กุ้งฝอย, แป้ง, ใบมะกรูด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%81%E0%B8%B8%E0%B9%89%E0%B8%87%E0%B8%9D%E0%B8%AD%E0%B8%A2%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B9%81%E0%B8%9E.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ท้องปลาแซมอนทอด",
+    "ingredients": "ท้องแซลมอน, เกลือ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B9%81%E0%B8%8B%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เนื้อปลากะพงทอดขมิ้น",
+    "ingredients": "เนื้อปลาชิ้น, ขมิ้นสด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%82%E0%B8%A1%E0%B8%B4%E0%B9%89%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หอยแมลงภู่ชุบแป้งทอด",
+    "ingredients": "หอยแมลงภู่, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%AD%E0%B8%A2%E0%B9%81%E0%B8%A1%E0%B8%A5%E0%B8%87%E0%B8%A0%E0%B8%B9%E0%B9%88%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปูจ๋า",
+    "ingredients": "กระดองปู, เนื้อปูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%B9%E0%B8%88%E0%B9%8B%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวมาม่า",
+    "ingredients": "มาม่า, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%A1%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เป็ดทอดพริกน้ำปลา",
+    "ingredients": "ไข่เป็ด, พริกน้ำปลา",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%94%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2.jpeg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เต้าหู้ไข่ชุบแป้งทอด",
+    "ingredients": "เต้าหู้ไข่, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวปลากระป๋อง",
+    "ingredients": "ปลากระป๋อง, ไข่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%9B%E0%B9%8B%E0%B8%AD%E0%B8%87.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียววุ้นเส้น",
+    "ingredients": "วุ้นเส้น, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%A7%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เต้าหู้ทอดราดซอสหวาน",
+    "ingredients": "เต้าหู้ขาว, ซีอิ๊วหวาน",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%B9%E0%B9%89%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%8B%E0%B8%AD%E0%B8%AA%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวลาบ",
+    "ingredients": "ไข่ไก่, เครื่องลาบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%A5%E0%B8%B2%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวปูหนานุ่ม",
+    "ingredients": "เนื้อปู, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%9B%E0%B8%B9%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B8%99%E0%B8%B8%E0%B9%88%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่ครอบทอด",
+    "ingredients": "ไข่ครอบ, แป้งบาง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่เจียวชะอม",
+    "ingredients": "ชะอม, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "มะเขือยาวชุบไข่ทอด",
+    "ingredients": "มะเขือยาว, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ข้าวโพดอ่อนทอดกรอบ",
+    "ingredients": "ข้าวโพดอ่อน, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B9%82%E0%B8%9E%E0%B8%94%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หอมหัวใหญ่ทอด",
+    "ingredients": "หอมใหญ่, เกล็ดขนมปัง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%AD%E0%B8%A1%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เผือกทอด",
+    "ingredients": "เผือกเส้น, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%9C%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "มันทอด",
+    "ingredients": "มันเทศ, แป้ง, กะทิ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "กล้วยแขกทอด",
+    "ingredients": "กล้วยน้ำว้า, แป้งทอด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ถั่วฝักยาวทอดกรอบ",
+    "ingredients": "ถั่วฝักยาว, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%B1%E0%B8%81%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เห็ดออรินจิทอด",
+    "ingredients": "เห็ดออรินจิ, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%AB%E0%B9%87%E0%B8%94%E0%B8%AD%E0%B8%AD%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "บล็อกโคลี่ทอด",
+    "ingredients": "บล็อกโคลี่, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9A%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%82%E0%B8%84%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ใบตำลึงทอดกรอบ",
+    "ingredients": "ใบตำลึง, แป้งบาง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%83%E0%B8%9A%E0%B8%95%E0%B8%B3%E0%B8%A5%E0%B8%B6%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เกี๊ยวทอดไส้หมูสับ",
+    "ingredients": "แผ่นเกี๊ยว, หมูสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปอเปี๊ยะทอด",
+    "ingredients": "แผ่นปอเปี๊ยะ, วุ้นเส้น",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ลูกชิ้นเนื้อทอด",
+    "ingredients": "ลูกชิ้นเนื้อ, น้ำจิ้ม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%AD%E0%B9%80%E0%B8%9B%E0%B8%B5%E0%B9%8A%E0%B8%A2%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ถั่วลิสงทอดเกลือ",
+    "ingredients": "ถั่วลิสงดิบ, เกลือ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "เม็ดมะม่วงฯ ทอด",
+    "ingredients": "เม็ดมะม่วงหิมพานต์",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%A5%E0%B8%B4%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "สแปมทอด",
+    "ingredients": "สแปม, ซอสปรุงรส",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%80%E0%B8%A1%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B0%E0%B8%A1%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B8%AF%20%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ชีสทอด",
+    "ingredients": "มอสซาเรลล่า, แป้ง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AA%E0%B9%81%E0%B8%9B%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ข้าวทอด",
+    "ingredients": "ข้าวสวย, พริกแกง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%8A%E0%B8%B5%E0%B8%AA%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ขนมปังหน้ากุ้ง",
+    "ingredients": "ขนมปัง, กุ้งสับ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปูอัดทอดรสลาบ",
+    "ingredients": "ปูอัด, ผงลาบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%B9%E0%B8%AD%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%A3%E0%B8%AA%E0%B8%A5%E0%B8%B2%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไข่ยางมะตูมทอด",
+    "ingredients": "ไข่ต้ม, แป้งกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B0%E0%B8%95%E0%B8%B9%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไส้กรอกแดงทอด",
+    "ingredients": "ไส้กรอกแดง",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%94%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูสับห่อไข่เค็มทอด",
+    "ingredients": "หมูสับ, ไข่เค็ม",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B8%AB%E0%B9%88%E0%B8%AD%E0%B9%84%E0%B8%82%E0%B9%88%E0%B9%80%E0%B8%84%E0%B9%87%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาทูราดพริก",
+    "ingredients": "ปลาทู, พริกสด",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%B9%E0%B8%A3%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B4%E0%B8%81.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ปลาดุกฟู",
+    "ingredients": "เนื้อปลาดุกย่าง",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJ6MLGxIPaw0hlBPpdxRMoU7ZkLgRtAhjyw&s"
+  },
+  {
+    "Category": "ทอด",
+    "name": "รากบัวทอดกรอบ",
+    "ingredients": "รากบัวสไลด์, เกลือ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%9A%E0%B8%B1%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ไส้กรอกพันเบคอนทอด",
+    "ingredients": "ไส้กรอก, เบคอน",
+    "Image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6wSxHcq65SOyqndWhxJNzRM0vU7T8DUDLvQ&s"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ดอกขจรชุบไข่ทอด",
+    "ingredients": "ดอกขจร, ไข่ไก่",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%94%E0%B8%AD%E0%B8%81%E0%B8%82%E0%B8%88%E0%B8%A3%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "หมูยอชุบแป้งทอด",
+    "ingredients": "หมูยอ, แป้งกรอบ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%A2%E0%B8%AD%E0%B8%8A%E0%B8%B8%E0%B8%9A%E0%B9%81%E0%B8%9B%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  },
+  {
+    "Category": "ทอด",
+    "name": "ยำไข่ดาวทอด",
+    "ingredients": "ไข่ดาวกรอบ, เครื่องยำ",
+    "Image_url": "https://github.com/Vee12325/image_SE/blob/main/2/%E0%B8%A2%E0%B8%B3%E0%B9%84%E0%B8%82%E0%B9%88%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%97%E0%B8%AD%E0%B8%94.jpg?raw=true"
+  }
+]
