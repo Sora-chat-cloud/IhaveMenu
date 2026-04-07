@@ -1,0 +1,13 @@
+# Docker files 
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# อื่นๆ
+__pycache__/
+IhaveMenu/
+test.py
+.env
