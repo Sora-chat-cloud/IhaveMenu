@@ -11,82 +11,46 @@ def index():
 
 @app.route('/user-input')
 def user_input_page():
-    return render_template('userInput.html')
+    with open('menubase.json', 'r', encoding='utf-8') as f:
+        menu_data = json.load(f)
 
-def score_ingredients(user_ingredients_str, menu_ingredients_str):
-    if not user_ingredients_str or not menu_ingredients_str:
-        return 0
+    return render_template('userInput.html', menu_json=json.dumps(menu_data, ensure_ascii=False))
+
+@app.route('/pre-ingredients', methods=['POST'])
+def pre_ingredients():
+    data_raw = request.form.get('selected_menus_data')
+    selected_menus = json.loads(data_raw) if data_raw else []
     
-    # 1. เตรียมข้อมูล User: เปลี่ยนเป็นตัวเล็กและตัดช่องว่าง 
-    user_input = user_ingredients_str.lower()
-    
-    # 2. เตรียมข้อมูลเมนู: แยกเป็นลิสต์ของวัตถุดิบแต่ละชนิด
-    menu_items = [item.strip().lower() for item in menu_ingredients_str.split(',')]
-    
-    score = 0
-    # 3. เช็คทีละอย่างว่า วัตถุดิบในเมนู 'มีอยู่ใน' ข้อความที่ User ส่งมาไหม
-    for item in menu_items:
-        if item in user_input:
-            score += 1
-            
-    return score
+    # ส่งข้อมูลเมนูที่เลือกไปแสดงในหน้าพรีวิวเพื่อให้ User ติ๊กวัตถุดิบแยกแต่ละเมนู
+    return render_template('pre-ingredients.html', menus=selected_menus)
 
 @app.route('/api/get-menu', methods=['POST'])
 def get_menu():
     try:
-        # 1. รับข้อมูลจาก User
-        user_ingredients = request.form.get('ingredients') 
-        food_type = request.form.get('food_type')         
-        time_limit = request.form.get('time')
+        user_ingredients = request.form.get('all_ingredients')
+        user_data = json.loads(user_ingredients) if user_ingredients else []
 
-        # 2. โหลดฐานข้อมูล MenuBase.json
-        with open('menubase.json', 'r', encoding='utf-8') as f:
-            all_menus = json.load(f)
-
-        # 3. กรองเฉพาะ Category ที่ใช้
-        filtered_menus = [m for m in all_menus if m['Category'] == food_type]
-
-        # 4. กระบวนการ Scoring
-        scored_list = []
-        for menu in filtered_menus:
-            score = score_ingredients(user_ingredients, menu['ingredients'])
-            scored_list.append({
-                "menu_data": menu,
-                "score": score
-            })
-
-        # 5. เรียงลำดับตามคะแนน (มากไปน้อย) และเลือก Top 3
-        top_menus = sorted(scored_list, key=lambda x: x['score'], reverse=True)[:3]
-        
-        # ดึงเฉพาะข้อมูลเมนูออกมาเป็น List
-        final_menu_pool = [item['menu_data'] for item in top_menus]
         # เก็บ Map ของชื่อเมนูคู่กับ URL ไว้ (เพื่อเอาไว้ดึงมาแปะคืนทีหลัง)
-        url_map = {m['name']: m['Image_url'] for m in final_menu_pool}
+        url_map = {m['name']: m['image_url'] for m in user_data}
 
         # สร้างชุดข้อมูลที่ไม่มี Image_url ส่งให้ AI
         menu_pool_for_ai = []
-        for m in final_menu_pool:
+        for m in user_data:
             menu_pool_for_ai.append({
-                "Category": m['Category'],
                 "name": m['name'],
                 "ingredients": m['ingredients']
             })
-        
-        results = gemie_menu_recommendation(
-            user_ingredients=user_ingredients,
-            menu_pool=menu_pool_for_ai,
-            time_limit=time_limit
-        )
+
+        results = gemie_menu_recommendation(menu_pool_for_ai)
 
         # --- กระบวนการ Mapping URL กลับคืน ---
         for item in results:
             item['Image_url'] = url_map.get(item['recipe_name'])
 
         return render_template('createMenu.html', menus=results)
-
     except Exception as e:
-        print(f"Scoring Error: {e}")
-        return f"เกิดข้อผิดพลาด: {str(e)}", 500
+        print(f"\nError occurred: {str(e)}\n")
+        return render_template('error.html', error_message=str(e))
 
 
 # ------ errorhandler ------

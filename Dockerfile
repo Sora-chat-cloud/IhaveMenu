@@ -17,6 +17,10 @@ COPY . .
 ENV PORT=10000
 EXPOSE 10000
 
+# EXPOSE 5000
+
 # 7. คำสั่งรัน Server โดยใช้ Gunicorn (แนะนำสำหรับ Production)
 # app:app หมายถึง ไฟล์ app.py และตัวแปร app = Flask(__name__)
 CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:$PORT app:app"]
+
+# CMD ["python","app.py"]
